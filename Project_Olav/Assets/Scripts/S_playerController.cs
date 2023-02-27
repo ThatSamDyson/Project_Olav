@@ -18,8 +18,11 @@ public class S_playerController : MonoBehaviour
 
     [SerializeField] private Camera playerCamera;
 
+    Collider collider;
+
     private void Awake()
     {
+        collider = GetComponent<Collider>();
         rb = this.GetComponent<Rigidbody>();
         playerControl = new PlayerControls();
     }
@@ -86,16 +89,21 @@ public class S_playerController : MonoBehaviour
     {
         if(IsGrounded())
         {
+            Debug.Log("Grounded");
             forceDirection += Vector3.up * jumpForce;
         }
     }
 
     private bool IsGrounded()
     {
-        Ray ray = new Ray(this.transform.position + Vector3.up * 0.25f, Vector3.down);
-        if(Physics.Raycast(ray, out RaycastHit hit, 0.3f))
+        //return true;
+
+        //collider.bounds.extents.y;
+        Ray ray = new Ray(this.transform.position, Vector3.down);
+        Debug.DrawLine(this.transform.position, transform.position + (Vector3.down * 50), color: Color.green, 30f);
+        if (Physics.Raycast(ray, out RaycastHit hit, 1f))
             return true;
         else
             return false;
     }
-}
+} 
