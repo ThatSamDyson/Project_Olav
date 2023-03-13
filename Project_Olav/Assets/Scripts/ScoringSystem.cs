@@ -6,12 +6,12 @@ using UnityEngine.UI;
 public class ScoringSystem : MonoBehaviour
 {
     public GameObject scoreText;
-    public static int score;
+    public int score;
 
 
     void Update()
     {
-        scoreText.GetComponent<Text>().text = "SCORE: " + score;
+        scoreText.GetComponent<TMPro.TextMeshProUGUI>().text = "SCORE: " + score;
         
     }
 }
