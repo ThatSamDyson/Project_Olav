@@ -8,16 +8,17 @@ public class s_CollectFish : MonoBehaviour
     public AudioSource collectSound;
     private ScoringSystem scoring;
     public GameObject Score;
+    [SerializeField] public int pointValue;
 
     private void Awake()
     {
         scoring = Score.GetComponent<ScoringSystem>();
     }
 
-    void OnTriggerEnter(Collider other)
+     void OnTriggerEnter(Collider other)
     {
         collectSound.Play();
-        scoring.score += 50;
+        scoring.score += pointValue;
         Destroy(gameObject);
     }
 }

@@ -1,23 +1,23 @@
 Using pre-set license
 Built from '2022.1/staging' branch; Version is '2022.1.4f1 (76dd1f94b339) revision 7789855'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19044) 64bit Enterprise' Language: 'en' Physical Memory: 32512 MB
+OS: 'Windows 10  (10.0.19044) 64bit Core' Language: 'en' Physical Memory: 32696 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity 2022.1.4f1\Editor\Unity.exe
+C:\Program Files (x86)\2022.1.4f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/d010941k/Documents/GitHub/Project_Olav/Project_Olav
+C:/Users/SamDy/Documents/Uni/Project_Olav/Project_Olav
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-64893
-Successfully changed project path to: C:/Users/d010941k/Documents/GitHub/Project_Olav/Project_Olav
-C:/Users/d010941k/Documents/GitHub/Project_Olav/Project_Olav
+64152
+Successfully changed project path to: C:/Users/SamDy/Documents/Uni/Project_Olav/Project_Olav
+C:/Users/SamDy/Documents/Uni/Project_Olav/Project_Olav
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,115 +47,114 @@ C:/Users/d010941k/Documents/GitHub/Project_Olav/Project_Olav
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 99.77 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 124.39 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.1.4f1 (76dd1f94b339)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2022.1.4f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/d010941k/Documents/GitHub/Project_Olav/Project_Olav/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files (x86)/2022.1.4f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/SamDy/Documents/Uni/Project_Olav/Project_Olav/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 3080 (ID=0x2206)
+    Renderer: NVIDIA GeForce RTX 2060 SUPER (ID=0x1f06)
     Vendor:   NVIDIA
-    VRAM:     10067 MB
-    Driver:   31.0.15.2802
+    VRAM:     8019 MB
+    Driver:   31.0.15.2824
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity 2022.1.4f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity 2022.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity 2022.1.4f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56776
+Mono path[0] = 'C:/Program Files (x86)/2022.1.4f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files (x86)/2022.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files (x86)/2022.1.4f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56992
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity 2022.1.4f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: C:/Program Files/Unity 2022.1.4f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Register platform support module: C:/Program Files/Unity 2022.1.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004364 seconds.
+Register platform support module: C:/Program Files (x86)/2022.1.4f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files (x86)/2022.1.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.008106 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 99.06 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 135.41 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.635 seconds
+- Completed reload, in  0.734 seconds
 Domain Reload Profiling:
-	ReloadAssembly (636ms)
-		BeginReloadAssembly (63ms)
+	ReloadAssembly (735ms)
+		BeginReloadAssembly (71ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (452ms)
-			LoadAssemblies (61ms)
+		EndReloadAssembly (548ms)
+			LoadAssemblies (69ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (124ms)
-				TypeCache.Initialize (123ms)
-					TypeCache.ScanAssembly (122ms)
+			SetupTypeCache (119ms)
+				TypeCache.Initialize (119ms)
+					TypeCache.ScanAssembly (117ms)
 				ResolveRequiredComponents (0ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (22ms)
-			SetupLoadedEditorAssemblies (260ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (346ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (34ms)
-				SetLoadedEditorAssemblies (5ms)
-				RefreshPlugins (99ms)
+				InitializePlatformSupportModulesInManaged (55ms)
+				SetLoadedEditorAssemblies (9ms)
+				RefreshPlugins (136ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (86ms)
-				ProcessInitializeOnLoadMethodAttributes (35ms)
+				ProcessInitializeOnLoadAttributes (100ms)
+				ProcessInitializeOnLoadMethodAttributes (45ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005771 seconds.
+Registered in 0.009662 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\SamDy\Documents\Uni\Project_Olav\Project_Olav\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\SamDy\Documents\Uni\Project_Olav\Project_Olav\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 102.00 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 113.10 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.252 seconds
+- Completed reload, in  1.510 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1253ms)
-		BeginReloadAssembly (92ms)
+	ReloadAssembly (1510ms)
+		BeginReloadAssembly (243ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (18ms)
-		EndReloadAssembly (1080ms)
-			LoadAssemblies (77ms)
+			CreateAndSetChildDomain (137ms)
+		EndReloadAssembly (1170ms)
+			LoadAssemblies (86ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (292ms)
-				TypeCache.Initialize (283ms)
-					TypeCache.ScanAssembly (279ms)
-				ResolveRequiredComponents (9ms)
+			SetupTypeCache (305ms)
+				TypeCache.Initialize (294ms)
+					TypeCache.ScanAssembly (289ms)
+				ResolveRequiredComponents (11ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (60ms)
-			SetupLoadedEditorAssemblies (599ms)
+			RebuildScriptCaches (70ms)
+			SetupLoadedEditorAssemblies (658ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (17ms)
+				InitializePlatformSupportModulesInManaged (16ms)
 				SetLoadedEditorAssemblies (6ms)
-				RefreshPlugins (102ms)
-				BeforeProcessingInitializeOnLoad (112ms)
-				ProcessInitializeOnLoadAttributes (285ms)
-				ProcessInitializeOnLoadMethodAttributes (71ms)
-				AfterProcessingInitializeOnLoad (6ms)
+				RefreshPlugins (113ms)
+				BeforeProcessingInitializeOnLoad (125ms)
+				ProcessInitializeOnLoadAttributes (311ms)
+				ProcessInitializeOnLoadMethodAttributes (76ms)
+				AfterProcessingInitializeOnLoad (11ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 1.30 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 6186 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 53 unused Assets / (465.0 KB). Loaded Objects now: 6649.
+Unloading 53 unused Assets / (457.4 KB). Loaded Objects now: 6649.
 Memory consumption went from 0.96 GB to 0.96 GB.
-Total: 3.470700 ms (FindLiveObjects: 0.410900 ms CreateObjectMapping: 0.294900 ms MarkObjects: 2.587400 ms  DeleteObjects: 0.176700 ms)
+Total: 4.738500 ms (FindLiveObjects: 0.864500 ms CreateObjectMapping: 0.229800 ms MarkObjects: 3.394900 ms  DeleteObjects: 0.248100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -169,350 +168,166 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 127176.739290 seconds.
-  path: Assets/Soccer Ball
-  artifactKey: Guid(30035cd573e38bf44b7f52005332c23e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Soccer Ball using Guid(30035cd573e38bf44b7f52005332c23e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd153617cd8384b77a188cb7c6977a23b') in 0.013497 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Soccer Ball/Meshes
-  artifactKey: Guid(c5d8a6c3714e5f843b93ff540e6ac8c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Soccer Ball/Meshes using Guid(c5d8a6c3714e5f843b93ff540e6ac8c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '176ed0eaef6f82c664aaa5125a6e21b2') in 0.006312 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.500218 seconds.
-  path: Assets/Soccer Ball/Materials
-  artifactKey: Guid(ca25f5934cb6f5e469a9be3010ef64dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Soccer Ball/Materials using Guid(ca25f5934cb6f5e469a9be3010ef64dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e3ceffd2f7622a23dda90ab5e5966d6') in 0.007999 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.041533 seconds.
-  path: Assets/Soccer Ball/Materials/Black-Ball-Material.mat
-  artifactKey: Guid(fb69c479c3cec624b96dfe20d305c1b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Soccer Ball/Materials/Black-Ball-Material.mat using Guid(fb69c479c3cec624b96dfe20d305c1b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17eae5c7dbbe86bf434a24fe715ea351') in 0.222800 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.068731 seconds.
-  path: Assets/Soccer Ball/Textures
-  artifactKey: Guid(6faa3d855cf626b4a9c681d552256f42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Soccer Ball/Textures using Guid(6faa3d855cf626b4a9c681d552256f42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae87ea3f403b7b7550fdb13f6c995791') in 0.008335 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.081380 seconds.
-  path: Assets/Soccer Ball/Textures/Soccer Ball Normal Map.png
-  artifactKey: Guid(a0d8751da35d5344ea4738f6a8227a0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Soccer Ball/Textures/Soccer Ball Normal Map.png using Guid(a0d8751da35d5344ea4738f6a8227a0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f45db49f5f24716059a01477e48e3be') in 0.025469 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 130.770816 seconds.
-  path: Assets/Soccer Ball/Meshes/Soccer Ball Mesh.fbx
-  artifactKey: Guid(58119f7e9f45c2944a0b18dd33378ffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Soccer Ball/Meshes/Soccer Ball Mesh.fbx using Guid(58119f7e9f45c2944a0b18dd33378ffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5037cbd7655c4a44357fbc9b0ba3bf7a') in 0.059643 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 31.564916 seconds.
-  path: Assets/ExampleAssets/Models/Workbench.fbx
-  artifactKey: Guid(efe9381559c516743bd05cef82f39ebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Models/Workbench.fbx using Guid(efe9381559c516743bd05cef82f39ebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0050f619b07b4b895cb71c98bdb818af') in 0.112017 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.742550 seconds.
-  path: Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Models/vehicles/ambulance.fbx
-  artifactKey: Guid(ff970cddf863e5a4193462d9010d3c62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Models/vehicles/ambulance.fbx using Guid(ff970cddf863e5a4193462d9010d3c62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d560524e450bea4f09dce3b6e8944c1') in 0.070375 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 26.805146 seconds.
-  path: Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Models/vehicles/police.fbx
-  artifactKey: Guid(4071d021bac217c43a577ab57a431aa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Models/vehicles/police.fbx using Guid(4071d021bac217c43a577ab57a431aa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e553bbb6435703484587c137b646dc06') in 0.073408 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.755446 seconds.
-  path: Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Models/vehicles/small_bus.fbx
-  artifactKey: Guid(c83553f81d630be449ba4b4610b06c58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Models/vehicles/small_bus.fbx using Guid(c83553f81d630be449ba4b4610b06c58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7192ce099be58f6174ebb2939ac6de3') in 0.068448 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.264863 seconds.
-  path: Assets/Materials/Black.mat
-  artifactKey: Guid(3e0ffe4d088c4b149b8f56330ea5c426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Black.mat using Guid(3e0ffe4d088c4b149b8f56330ea5c426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3296e9fcc7fa7f953d3cda1c1f590586') in 0.015021 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Models/vehicles/taxi.fbx
-  artifactKey: Guid(c2e32fdcefdb5c64bb91a18bf9909d6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Models/vehicles/taxi.fbx using Guid(c2e32fdcefdb5c64bb91a18bf9909d6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed882955ffa753c33c3090ec3913f480') in 0.065199 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Models/vehicles/sport_car.fbx
-  artifactKey: Guid(975fc14820d2c72409adbdad3e6c2edc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Models/vehicles/sport_car.fbx using Guid(975fc14820d2c72409adbdad3e6c2edc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32a0c64f94387dc0ab335f70a0359081') in 0.061504 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.376454 seconds.
-  path: Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Models/vehicles/fire_truck.fbx
-  artifactKey: Guid(c9ce5c9c471af2a4fa5d6a1f8dd31dd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Models/vehicles/fire_truck.fbx using Guid(c9ce5c9c471af2a4fa5d6a1f8dd31dd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b3dcaea49a3ae22226cb73b8cb07c49') in 0.062267 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.357485 seconds.
-  path: Assets/Materials/EyeBlack.mat
-  artifactKey: Guid(2f7aef9c1be67a54885816e115176ab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/EyeBlack.mat using Guid(2f7aef9c1be67a54885816e115176ab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3327ad29c998d48690da91ef978e0fc6') in 0.013831 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.356172 seconds.
-  path: Assets/ExampleAssets/Models/magneticlevel_low.fbx
-  artifactKey: Guid(bae110eee250e4b418b188f4ae4e3170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Models/magneticlevel_low.fbx using Guid(bae110eee250e4b418b188f4ae4e3170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da25a2bd10f45171b2da50ad3e351dd5') in 0.056007 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Materials/White.mat
-  artifactKey: Guid(f7db9588e3ee46b4aa6d044200a8004a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/White.mat using Guid(f7db9588e3ee46b4aa6d044200a8004a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec2c035182c501c96b292bb4241c3019') in 0.013354 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.962428 seconds.
-  path: Assets/Soccer Ball/Meshes/Soccer Ball Mesh.fbx
-  artifactKey: Guid(58119f7e9f45c2944a0b18dd33378ffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Soccer Ball/Meshes/Soccer Ball Mesh.fbx using Guid(58119f7e9f45c2944a0b18dd33378ffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a43211e75c813be7c370c3abe415a6d') in 0.021211 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 49.950580 seconds.
-  path: Assets/Soccer Ball/Meshes/Soccer Ball Mesh.fbx
-  artifactKey: Guid(58119f7e9f45c2944a0b18dd33378ffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Soccer Ball/Meshes/Soccer Ball Mesh.fbx using Guid(58119f7e9f45c2944a0b18dd33378ffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e28ee25c7ad816745a92e18dc73ba16e') in 0.018496 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005354 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.146 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1146ms)
-		BeginReloadAssembly (124ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (39ms)
-		EndReloadAssembly (937ms)
-			LoadAssemblies (77ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (273ms)
-				TypeCache.Initialize (261ms)
-					TypeCache.ScanAssembly (255ms)
-				ResolveRequiredComponents (12ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (48ms)
-			SetupLoadedEditorAssemblies (464ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (17ms)
-				SetLoadedEditorAssemblies (6ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (81ms)
-				ProcessInitializeOnLoadAttributes (278ms)
-				ProcessInitializeOnLoadMethodAttributes (75ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.07 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6018 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 28 unused Assets / (447.0 KB). Loaded Objects now: 6752.
-Memory consumption went from 0.93 GB to 0.93 GB.
-Total: 3.368300 ms (FindLiveObjects: 0.392600 ms CreateObjectMapping: 0.272800 ms MarkObjects: 2.548900 ms  DeleteObjects: 0.152600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006225 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.99 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.130 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1131ms)
-		BeginReloadAssembly (127ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (35ms)
-		EndReloadAssembly (921ms)
-			LoadAssemblies (78ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (284ms)
-				TypeCache.Initialize (274ms)
-					TypeCache.ScanAssembly (267ms)
-				ResolveRequiredComponents (10ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (47ms)
-			SetupLoadedEditorAssemblies (447ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (17ms)
-				SetLoadedEditorAssemblies (6ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (80ms)
-				ProcessInitializeOnLoadAttributes (262ms)
-				ProcessInitializeOnLoadMethodAttributes (74ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.03 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6018 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 28 unused Assets / (439.2 KB). Loaded Objects now: 6768.
-Memory consumption went from 0.93 GB to 0.93 GB.
-Total: 3.333400 ms (FindLiveObjects: 0.390800 ms CreateObjectMapping: 0.240800 ms MarkObjects: 2.560200 ms  DeleteObjects: 0.140200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 433.176708 seconds.
-  path: Assets/Soccer Ball/Meshes/Soccer Ball Mesh.fbx
-  artifactKey: Guid(58119f7e9f45c2944a0b18dd33378ffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Soccer Ball/Meshes/Soccer Ball Mesh.fbx using Guid(58119f7e9f45c2944a0b18dd33378ffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50f14fccd5b54653863f39d14bfac074') in 2.040930 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 12.498614 seconds.
-  path: Assets/Blue Polygon
-  artifactKey: Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blue Polygon using Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '205a9b8a5ffe8088cccfac8abcd5b7dd') in 0.008086 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.616291 seconds.
-  path: Assets/Blue Polygon/Rope Bridge 3D
-  artifactKey: Guid(d0135566c14bade418e3bdd9e9237b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blue Polygon/Rope Bridge 3D using Guid(d0135566c14bade418e3bdd9e9237b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71b74c95c4c1f98a67b8f687c13ddd04') in 0.005915 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.484205 seconds.
-  path: Assets/Elephant_Jahaziel
-  artifactKey: Guid(a8d0411e74c1b0a4193715906ee97f80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Elephant_Jahaziel using Guid(a8d0411e74c1b0a4193715906ee97f80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd542d62f4e98f3e314d8354d1cc5294c') in 0.008427 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.786855 seconds.
-  path: Assets/ExampleAssets
-  artifactKey: Guid(990f5c2df70993f4987a388ca178996a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets using Guid(990f5c2df70993f4987a388ca178996a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '437d3855a5f207d9c991a65e69dd9f68') in 0.006002 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.223248 seconds.
+  Time since last request: 58268.593551 seconds.
   path: Assets/Alstra Infinite
   artifactKey: Guid(d1d6ca386c823384583886c27cdf4073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Alstra Infinite using Guid(d1d6ca386c823384583886c27cdf4073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '856435ced6e3b315ad033d65435f97d8') in 0.009901 seconds 
+Start importing Assets/Alstra Infinite using Guid(d1d6ca386c823384583886c27cdf4073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7d5e114f67cecaa9f9f43d6ec2cc6f8') in 0.017830 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.645742 seconds.
-  path: Assets/Alstra Infinite/Fish - PolyPack
-  artifactKey: Guid(da3464f64a8ddc54480272b4da5586f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Alstra Infinite/Fish - PolyPack using Guid(da3464f64a8ddc54480272b4da5586f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7947288536bda59836da7e012dcfd77b') in 0.005936 seconds 
+  Time since last request: 0.127184 seconds.
+  path: Assets/Blue Polygon/Rope Bridge 3D
+  artifactKey: Guid(d0135566c14bade418e3bdd9e9237b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blue Polygon/Rope Bridge 3D using Guid(d0135566c14bade418e3bdd9e9237b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fb94c858e02eb282d956ae7e77d2ded') in 0.005833 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.242878 seconds.
-  path: Assets/Alstra Infinite/Fish - PolyPack/Models
-  artifactKey: Guid(4d073f0bbc4f46d47a6ceba6153c07dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Alstra Infinite/Fish - PolyPack/Models using Guid(4d073f0bbc4f46d47a6ceba6153c07dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '666d873236bec110bdf30ca7024c4cd5') in 0.006470 seconds 
+  Time since last request: 0.956140 seconds.
+  path: Assets/Blue Polygon/Rope Bridge 3D/Mesh
+  artifactKey: Guid(e38189df657efd64ea44ed6db5785829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blue Polygon/Rope Bridge 3D/Mesh using Guid(e38189df657efd64ea44ed6db5785829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e3663818ef9c5779eefde77ddd02294') in 0.006734 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.340007 seconds.
-  path: Assets/Alstra Infinite/Fish - PolyPack/Materials
-  artifactKey: Guid(a166dd428664ae84baf03759fe565b34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Alstra Infinite/Fish - PolyPack/Materials using Guid(a166dd428664ae84baf03759fe565b34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b228d8bc65ae8b06d8725e68428e2518') in 0.005817 seconds 
+  Time since last request: 0.131115 seconds.
+  path: Assets/Blue Polygon/Rope Bridge 3D/Mesh/rope_bridge.fbx
+  artifactKey: Guid(17edde830b2c03c4380312f9ef12286e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blue Polygon/Rope Bridge 3D/Mesh/rope_bridge.fbx using Guid(17edde830b2c03c4380312f9ef12286e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5d8e08dad8908a83c0fa5dfa6323449') in 0.401958 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.060653 seconds.
-  path: Assets/Alstra Infinite/Fish - PolyPack/Materials/Main.mat
-  artifactKey: Guid(284830dd46ce77c4696ef63853c7cf5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Alstra Infinite/Fish - PolyPack/Materials/Main.mat using Guid(284830dd46ce77c4696ef63853c7cf5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84676b79725a33789f9a8f4f3fe59eaa') in 0.022704 seconds 
+  Time since last request: 6.165341 seconds.
+  path: Assets/Blue Polygon/Rope Bridge 3D/Metarials
+  artifactKey: Guid(90e913bf40ef05e4fb5506bdb0d98903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blue Polygon/Rope Bridge 3D/Metarials using Guid(90e913bf40ef05e4fb5506bdb0d98903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c98549caba0bccf74209e9b91dff9d44') in 0.005636 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.093568 seconds.
-  path: Assets/Alstra Infinite/Fish - PolyPack/Models/FishV1.fbx
-  artifactKey: Guid(38f74cd884cda8242b4fdc167c4962f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Alstra Infinite/Fish - PolyPack/Models/FishV1.fbx using Guid(38f74cd884cda8242b4fdc167c4962f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dd368f1e3cdcd9453527f387ffdebb2') in 0.039328 seconds 
+  Time since last request: 0.050506 seconds.
+  path: Assets/Blue Polygon/Rope Bridge 3D/Metarials/Rope.mat
+  artifactKey: Guid(144a8a517186aa3448bc033f0d5da32a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blue Polygon/Rope Bridge 3D/Metarials/Rope.mat using Guid(144a8a517186aa3448bc033f0d5da32a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1df09fcc2238475b47f9c23f45101a3c') in 0.039048 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Blue Polygon/Rope Bridge 3D/Metarials/Wood2.mat
+  artifactKey: Guid(ea79a22e8944580409b965c3c1dc8f0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blue Polygon/Rope Bridge 3D/Metarials/Wood2.mat using Guid(ea79a22e8944580409b965c3c1dc8f0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0440c1ad5c48f1df10650805f8676fef') in 0.016487 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 26.605945 seconds.
+  path: Assets/Blue Polygon/Rope Bridge 3D/Prefab
+  artifactKey: Guid(8baa47a3c04d3f045800dad68334ece7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blue Polygon/Rope Bridge 3D/Prefab using Guid(8baa47a3c04d3f045800dad68334ece7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec75391386d808071f318e4ae4bd0a36') in 0.005579 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.042527 seconds.
+  path: Assets/Blue Polygon/Rope Bridge 3D/Prefab/rope_bridge.prefab
+  artifactKey: Guid(75baae4b94c3fcb43a6a2ae0ed684998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blue Polygon/Rope Bridge 3D/Prefab/rope_bridge.prefab using Guid(75baae4b94c3fcb43a6a2ae0ed684998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36817ea6d71936945818620425cdef4b') in 0.091953 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.763574 seconds.
+  path: Assets/Blue Polygon/Rope Bridge 3D/Scene
+  artifactKey: Guid(21e55f7017bfe13499ca33f4bec25711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blue Polygon/Rope Bridge 3D/Scene using Guid(21e55f7017bfe13499ca33f4bec25711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77c25d9c43dc6348519df180064d0b19') in 0.006540 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 267.517371 seconds.
+  path: Assets/BrokenVector
+  artifactKey: Guid(99ceb139f9189c04dbda62580a478405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector using Guid(99ceb139f9189c04dbda62580a478405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '431bc0f45b131f1d30795394355cdd44') in 0.006270 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.348903 seconds.
+  path: Assets/BrokenVector/LowPolyFencePack
+  artifactKey: Guid(4676b307259bbc947b4975643cad8fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyFencePack using Guid(4676b307259bbc947b4975643cad8fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41f3d756d7392671331ed4a9e11f5e05') in 0.005678 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.515827 seconds.
+  path: Assets/BrokenVector/LowPolyFencePack/Materials
+  artifactKey: Guid(12376baf0562e694b9d8a1be4b41840e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyFencePack/Materials using Guid(12376baf0562e694b9d8a1be4b41840e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7210b461d8ef896053b7a725a731ded') in 0.005562 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.947117 seconds.
+  path: Assets/BrokenVector/LowPolyFencePack/Models
+  artifactKey: Guid(29d623a3fc8d4e04a8e1158958eb6f3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyFencePack/Models using Guid(29d623a3fc8d4e04a8e1158958eb6f3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '288841ebe08663f181e8215dbaa68a46') in 0.005254 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.433519 seconds.
+  path: Assets/BrokenVector/LowPolyFencePack/Models/Fence Type1 01.dae
+  artifactKey: Guid(607fa0a0a8b6097479348b4480edc606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyFencePack/Models/Fence Type1 01.dae using Guid(607fa0a0a8b6097479348b4480edc606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd30efbfefce258293ab408ff1a5bd83f') in 0.034181 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/BrokenVector/LowPolyFencePack/Models/Fence Type2 01.dae
+  artifactKey: Guid(836c223527ea5104ea614a4dc350d6f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyFencePack/Models/Fence Type2 01.dae using Guid(836c223527ea5104ea614a4dc350d6f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1913042773e1a09b28138accd9a0ea3') in 0.024738 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/BrokenVector/LowPolyFencePack/Models/Fence Type3 02.dae
+  artifactKey: Guid(35aff7f9767a6ee429d8bdf31328705f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyFencePack/Models/Fence Type3 02.dae using Guid(35aff7f9767a6ee429d8bdf31328705f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31bcdcd9e2a3bd12dd43e6bbcf905b1d') in 0.040247 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000027 seconds.
-  path: Assets/Alstra Infinite/Fish - PolyPack/Models/FishV4.fbx
-  artifactKey: Guid(ea93ead513f04c9478f78e3f40ba5b11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Alstra Infinite/Fish - PolyPack/Models/FishV4.fbx using Guid(ea93ead513f04c9478f78e3f40ba5b11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14dbf355d8a1d021772f180c12ef3a8a') in 0.032761 seconds 
+  path: Assets/BrokenVector/LowPolyFencePack/Models/Fence Type2 Door.fbx
+  artifactKey: Guid(919734941a900d24090f2925025373f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyFencePack/Models/Fence Type2 Door.fbx using Guid(919734941a900d24090f2925025373f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b8294f23b0e47a387335cf274971e42') in 0.164907 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Alstra Infinite/Fish - PolyPack/Models/SharkV1.fbx
-  artifactKey: Guid(ca38d4485fce19f4aa0d3d7bdd8b6cf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Alstra Infinite/Fish - PolyPack/Models/SharkV1.fbx using Guid(ca38d4485fce19f4aa0d3d7bdd8b6cf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a7595d1518bc2b2a223115dacb9365f') in 0.027257 seconds 
+  Time since last request: 0.000043 seconds.
+  path: Assets/BrokenVector/LowPolyFencePack/Models/Fence Type2 03.dae
+  artifactKey: Guid(d48bf2190ea9990478b126e5e2540a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyFencePack/Models/Fence Type2 03.dae using Guid(d48bf2190ea9990478b126e5e2540a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e6848de65a035967da665dae5b83b17') in 0.024612 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Alstra Infinite/Fish - PolyPack/Models/FishV3.fbx
-  artifactKey: Guid(ae51ad94fa7d3764d957aa512d506d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Alstra Infinite/Fish - PolyPack/Models/FishV3.fbx using Guid(ae51ad94fa7d3764d957aa512d506d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c3c8218f5d4377ff8f15c2b070a11f0') in 0.032090 seconds 
+  Time since last request: 0.000029 seconds.
+  path: Assets/BrokenVector/LowPolyFencePack/Models/Fence Type6 Small.dae
+  artifactKey: Guid(32ece367df421af48acad3f16120520c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyFencePack/Models/Fence Type6 Small.dae using Guid(32ece367df421af48acad3f16120520c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '538ffba6c02218c77994c5290f2329bf') in 0.026116 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 30.671960 seconds.
-  path: Assets/Tiger/run.fbx
-  artifactKey: Guid(fcd4de5ffa6d77f47a1da32a7f2fb699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiger/run.fbx using Guid(fcd4de5ffa6d77f47a1da32a7f2fb699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46ca45a3998bd9bbf3471c608da78683') in 0.101803 seconds 
+  Time since last request: 0.000032 seconds.
+  path: Assets/BrokenVector/LowPolyFencePack/Models/Fence Type3 01.dae
+  artifactKey: Guid(7e1ddd08b1b2c354a8ad951245480569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyFencePack/Models/Fence Type3 01.dae using Guid(7e1ddd08b1b2c354a8ad951245480569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9eee3b02684a3a109bf8338335fe33b3') in 0.025884 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000026 seconds.
-  path: Assets/Tiger/Walk.fbx
-  artifactKey: Guid(427f72e3e110e5145bf4956336b40f6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiger/Walk.fbx using Guid(427f72e3e110e5145bf4956336b40f6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d4663a424da06838a827755eb857b56') in 0.046643 seconds 
+  path: Assets/BrokenVector/LowPolyFencePack/Models/Fence Type2 02.dae
+  artifactKey: Guid(e5af5116aa5f71b4fb5f5ffc3443447d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyFencePack/Models/Fence Type2 02.dae using Guid(e5af5116aa5f71b4fb5f5ffc3443447d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e2a3ced08f44d008f75044861ff6277') in 0.026898 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.530467 seconds.
-  path: Assets/Tiger/Materials/Eyes_outer.mat
-  artifactKey: Guid(9b8877a3e2f704646b9c12b53edc3ab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiger/Materials/Eyes_outer.mat using Guid(9b8877a3e2f704646b9c12b53edc3ab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bc355c6ec5a30d91c01de1d4edf71cd') in 0.015644 seconds 
+  Time since last request: 0.000037 seconds.
+  path: Assets/BrokenVector/LowPolyFencePack/Models/Fence Type6 Big.dae
+  artifactKey: Guid(528e1a5bd85e7dd4781f1fdd6a8cb01a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyFencePack/Models/Fence Type6 Big.dae using Guid(528e1a5bd85e7dd4781f1fdd6a8cb01a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08c936517b411ecce318909685674119') in 0.029846 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Tiger/Materials/texture.mat
-  artifactKey: Guid(f0e6c1cbfc100b44c9434d4749da91fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiger/Materials/texture.mat using Guid(f0e6c1cbfc100b44c9434d4749da91fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f95d59d692d4a2d1e7fae80887820661') in 0.032360 seconds 
+  Time since last request: 0.000033 seconds.
+  path: Assets/BrokenVector/LowPolyFencePack/Models/Fence Type5 Big.dae
+  artifactKey: Guid(1f40fa7399dd9aa4b93f77317682f7ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyFencePack/Models/Fence Type5 Big.dae using Guid(1f40fa7399dd9aa4b93f77317682f7ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4569645e754cf14febf8fb21fea4857c') in 0.032659 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 64.773697 seconds.
+  path: Assets/BrokenVector/LowPolyFencePack/Materials/Red Wood.mat
+  artifactKey: Guid(6c7da534adf849442ab00c554ac221d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyFencePack/Materials/Red Wood.mat using Guid(6c7da534adf849442ab00c554ac221d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '426b9351b841eae052f14c209151e0e9') in 0.021844 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.619317 seconds.
+  path: Assets/BrokenVector/LowPolyFencePack/Materials/Colorsheets/Occlusion/Colorsheet Wood Red.png
+  artifactKey: Guid(ca19cfe9276d1af45a186e87e77f0d18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyFencePack/Materials/Colorsheets/Occlusion/Colorsheet Wood Red.png using Guid(ca19cfe9276d1af45a186e87e77f0d18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '137d1d153b82693553d5830f2096dff7') in 0.094177 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/BrokenVector/LowPolyFencePack/Materials/Colorsheets/Occlusion/ColSheet1.mat
+  artifactKey: Guid(31f70a8ab4f4e7149af2963f1fb26cf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyFencePack/Materials/Colorsheets/Occlusion/ColSheet1.mat using Guid(31f70a8ab4f4e7149af2963f1fb26cf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b0f6ac5505b64ef4fb77bac732ff9db') in 1.230343 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting
