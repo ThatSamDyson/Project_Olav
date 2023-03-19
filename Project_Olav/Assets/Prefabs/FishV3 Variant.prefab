@@ -10,7 +10,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: ae51ad94fa7d3764d957aa512d506d00, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ae51ad94fa7d3764d957aa512d506d00, type: 3}
       propertyPath: m_LocalPosition.x
@@ -54,7 +54,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: ae51ad94fa7d3764d957aa512d506d00, type: 3}
       propertyPath: m_Name
-      value: FishV3
+      value: FishV3 Variant
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -91,3 +91,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   collectSound: {fileID: 0}
   Score: {fileID: 0}
+  pointValue: 0
+--- !u!114 &5519817271375041018
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6564370983322776686}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3092c93342b7494088cb00060d05fc9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _rotation: {x: 0, y: 0, z: 0}

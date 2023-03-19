@@ -15,7 +15,7 @@ C:/Users/SamDy/Documents/Uni/Project_Olav/Project_Olav
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-64152
+51968
 Successfully changed project path to: C:/Users/SamDy/Documents/Uni/Project_Olav/Project_Olav
 C:/Users/SamDy/Documents/Uni/Project_Olav/Project_Olav
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/SamDy/Documents/Uni/Project_Olav/Project_Olav
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 117.93 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 140.70 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.1.4f1 (76dd1f94b339)
 [Subsystems] Discovering subsystems at path C:/Program Files (x86)/2022.1.4f1/Editor/Data/Resources/UnitySubsystems
@@ -63,98 +63,98 @@ Initialize mono
 Mono path[0] = 'C:/Program Files (x86)/2022.1.4f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files (x86)/2022.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files (x86)/2022.1.4f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56476
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56896
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files (x86)/2022.1.4f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files (x86)/2022.1.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006973 seconds.
+Registered in 0.010566 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 135.66 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 150.39 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.718 seconds
+- Completed reload, in  0.818 seconds
 Domain Reload Profiling:
-	ReloadAssembly (719ms)
-		BeginReloadAssembly (72ms)
+	ReloadAssembly (819ms)
+		BeginReloadAssembly (78ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (539ms)
-			LoadAssemblies (70ms)
+		EndReloadAssembly (604ms)
+			LoadAssemblies (76ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (114ms)
-				TypeCache.Initialize (113ms)
-					TypeCache.ScanAssembly (111ms)
-				ResolveRequiredComponents (0ms)
+			SetupTypeCache (135ms)
+				TypeCache.Initialize (134ms)
+					TypeCache.ScanAssembly (132ms)
+				ResolveRequiredComponents (1ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (25ms)
-			SetupLoadedEditorAssemblies (345ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (382ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (56ms)
-				SetLoadedEditorAssemblies (9ms)
-				RefreshPlugins (136ms)
+				InitializePlatformSupportModulesInManaged (57ms)
+				SetLoadedEditorAssemblies (10ms)
+				RefreshPlugins (151ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (100ms)
-				ProcessInitializeOnLoadMethodAttributes (43ms)
+				ProcessInitializeOnLoadAttributes (121ms)
+				ProcessInitializeOnLoadMethodAttributes (42ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.009505 seconds.
+Registered in 0.008844 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\SamDy\Documents\Uni\Project_Olav\Project_Olav\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\SamDy\Documents\Uni\Project_Olav\Project_Olav\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 117.35 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 137.48 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.495 seconds
+- Completed reload, in  1.796 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1496ms)
-		BeginReloadAssembly (224ms)
+	ReloadAssembly (1797ms)
+		BeginReloadAssembly (243ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (126ms)
-		EndReloadAssembly (1177ms)
-			LoadAssemblies (92ms)
+			CreateAndSetChildDomain (128ms)
+		EndReloadAssembly (1434ms)
+			LoadAssemblies (124ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (309ms)
-				TypeCache.Initialize (298ms)
-					TypeCache.ScanAssembly (292ms)
-				ResolveRequiredComponents (11ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (68ms)
-			SetupLoadedEditorAssemblies (658ms)
+			SetupTypeCache (381ms)
+				TypeCache.Initialize (369ms)
+					TypeCache.ScanAssembly (363ms)
+				ResolveRequiredComponents (12ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (83ms)
+			SetupLoadedEditorAssemblies (789ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (17ms)
-				SetLoadedEditorAssemblies (6ms)
-				RefreshPlugins (117ms)
-				BeforeProcessingInitializeOnLoad (129ms)
-				ProcessInitializeOnLoadAttributes (307ms)
-				ProcessInitializeOnLoadMethodAttributes (74ms)
-				AfterProcessingInitializeOnLoad (8ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (8ms)
+				RefreshPlugins (138ms)
+				BeforeProcessingInitializeOnLoad (146ms)
+				ProcessInitializeOnLoadAttributes (375ms)
+				ProcessInitializeOnLoadMethodAttributes (94ms)
+				AfterProcessingInitializeOnLoad (9ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 1.61 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 1.91 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6186 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 53 unused Assets / (457.4 KB). Loaded Objects now: 6649.
+Unloading 6188 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 53 unused Assets / (458.5 KB). Loaded Objects now: 6655.
 Memory consumption went from 0.96 GB to 0.96 GB.
-Total: 5.411700 ms (FindLiveObjects: 0.646200 ms CreateObjectMapping: 0.180100 ms MarkObjects: 4.322300 ms  DeleteObjects: 0.261100 ms)
+Total: 6.780000 ms (FindLiveObjects: 0.695700 ms CreateObjectMapping: 0.158800 ms MarkObjects: 5.634600 ms  DeleteObjects: 0.289200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -168,53 +168,387 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 58268.568529 seconds.
-  path: Assets/Blue Polygon
-  artifactKey: Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blue Polygon using Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3207f0cfb7ae84eee125590ee2d8df0') in 0.019443 seconds 
+  Time since last request: 22836.970129 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(f29334c6c9b0ab24a999f6e15da103e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(f29334c6c9b0ab24a999f6e15da103e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree Tree1 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+The tree Tree2 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+ -> (artifact id: 'f1c237f121ecb3f3360766834822c60c') in 0.210059 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.898320 seconds.
+  Time since last request: 1345.792157 seconds.
+  path: Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Models/vehicles/police.fbx
+  artifactKey: Guid(4071d021bac217c43a577ab57a431aa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Models/vehicles/police.fbx using Guid(4071d021bac217c43a577ab57a431aa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '691a7eefd90b5ac81583667752bd6775') in 2.265851 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Models/vehicles/bus.fbx
+  artifactKey: Guid(a0be93f1cec7d4b41943e97ce2c50cf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Models/vehicles/bus.fbx using Guid(a0be93f1cec7d4b41943e97ce2c50cf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd6e214e3cf7106bfcf871843296eb94') in 0.178778 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Models/decorations/car_light_green.fbx
+  artifactKey: Guid(d6fbc3bb1f742b240a2f5d916196a9e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Models/decorations/car_light_green.fbx using Guid(d6fbc3bb1f742b240a2f5d916196a9e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c05799eda4b2f0e0a53cd40101aa91fb') in 0.105587 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/SpatialMappingOcclusion.mat
+  artifactKey: Guid(b51db210fe78df745a372851b3db949e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/SpatialMappingOcclusion.mat using Guid(b51db210fe78df745a372851b3db949e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9069e3a754c3e1304e77ceb6625a3c0') in 0.023088 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Models/decorations/light_red.fbx
+  artifactKey: Guid(c1690fea4e8666048a0886e693f92969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Models/decorations/light_red.fbx using Guid(c1690fea4e8666048a0886e693f92969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db7604b322f09e2805f6ef5cb50d6bc9') in 0.089462 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Tiger/Materials/texture.mat
+  artifactKey: Guid(f0e6c1cbfc100b44c9434d4749da91fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiger/Materials/texture.mat using Guid(f0e6c1cbfc100b44c9434d4749da91fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e3aa88270e957c5d3422563d107e27a') in 0.297382 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Elephant_Jahaziel/Model/Texture/Rhino.mat
+  artifactKey: Guid(1e6639ce44533244893c52dd9df223ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Elephant_Jahaziel/Model/Texture/Rhino.mat using Guid(1e6639ce44533244893c52dd9df223ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '681cab09f5ed34d4707b8c29043946a6') in 0.257731 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Models/vehicles/sport_car.fbx
+  artifactKey: Guid(975fc14820d2c72409adbdad3e6c2edc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Models/vehicles/sport_car.fbx using Guid(975fc14820d2c72409adbdad3e6c2edc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c06bd4168752dead8a494a35d9fdcaf9') in 0.111193 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Models/buildings/hotel.fbx
+  artifactKey: Guid(8e636f3005c3ff7448d552f67acd3150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Models/buildings/hotel.fbx using Guid(8e636f3005c3ff7448d552f67acd3150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00aa365ff8cfb1da501bb1043e160a28') in 0.101851 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Models/buildings/blue_house.fbx
+  artifactKey: Guid(0fda25875f6df574f9a45f59d852966c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Models/buildings/blue_house.fbx using Guid(0fda25875f6df574f9a45f59d852966c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86fb66c9ac93be53d3d0adf75baa6c5c') in 0.066626 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Models/vehicles/blue_car.fbx
+  artifactKey: Guid(eab79a0ced611f74fbd69ab6fbc86be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Models/vehicles/blue_car.fbx using Guid(eab79a0ced611f74fbd69ab6fbc86be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fccf28d3f489d13bde2bce88493d97e') in 0.135327 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Models/vehicles/small_car.fbx
+  artifactKey: Guid(1f5857c54b890ac488e956867af273af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Models/vehicles/small_car.fbx using Guid(1f5857c54b890ac488e956867af273af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37b5cc089ac6e6e483531b1f083bb997') in 0.130668 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Models/buildings/pizzeria.fbx
+  artifactKey: Guid(48b827cb18856564391c0e366f1e9b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Models/buildings/pizzeria.fbx using Guid(48b827cb18856564391c0e366f1e9b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddfb3daa20d0823066dfd73892c7800a') in 0.076100 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Models/buildings/fire_station.fbx
+  artifactKey: Guid(9b4f0aa396369e14294f9e6b4d8bf86d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Models/buildings/fire_station.fbx using Guid(9b4f0aa396369e14294f9e6b4d8bf86d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ce96fc4a4bbda87aedd4b186798fb79') in 0.098921 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Lit-Default.mat
+  artifactKey: Guid(a97c105638bdf8b4a8650670310a4cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Lit-Default.mat using Guid(a97c105638bdf8b4a8650670310a4cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e45c11a77f0248e444cf27597f4cdd8') in 0.018926 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Packages/com.unity.probuilder/Content/Resources/Materials/UnlitVertexColor.mat
+  artifactKey: Guid(29966c3c0907b49b58c4e59342d020cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.probuilder/Content/Resources/Materials/UnlitVertexColor.mat using Guid(29966c3c0907b49b58c4e59342d020cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23ea52742543812f0ccedd8028e5876e') in 0.017544 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/BrokenVector/LowPolyFencePack/Materials/Yellow Wood.mat
+  artifactKey: Guid(ec2b0ecd91bd412439a8bab0d5f8a62d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyFencePack/Materials/Yellow Wood.mat using Guid(ec2b0ecd91bd412439a8bab0d5f8a62d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a0d019341621783adefbf320bd92836') in 0.078109 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Blue Polygon/Rope Bridge 3D/Metarials/Wood2.mat
+  artifactKey: Guid(ea79a22e8944580409b965c3c1dc8f0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blue Polygon/Rope Bridge 3D/Metarials/Wood2.mat using Guid(ea79a22e8944580409b965c3c1dc8f0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'add1719953bec82cb33da53b557b5e14') in 0.042538 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/ExampleAssets/Materials/Stud_Mat.mat
+  artifactKey: Guid(027cb3d3d7dc79d41ad763e01759de07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/Stud_Mat.mat using Guid(027cb3d3d7dc79d41ad763e01759de07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02e6b6a158423100073b41980f6c83aa') in 1.521929 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/ExampleAssets/Models/magneticlevel_low.fbx
+  artifactKey: Guid(bae110eee250e4b418b188f4ae4e3170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Models/magneticlevel_low.fbx using Guid(bae110eee250e4b418b188f4ae4e3170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da25a2bd10f45171b2da50ad3e351dd5') in 0.083540 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Models/decorations/hydrant.fbx
+  artifactKey: Guid(e8f9cc066944edf4a8cfcc7ea94eadb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Models/decorations/hydrant.fbx using Guid(e8f9cc066944edf4a8cfcc7ea94eadb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fee5cb6c5b57f75a8f75a277fb15f321') in 0.049772 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/ExampleAssets/Materials/Plastic_Gray_Mat.mat
+  artifactKey: Guid(4dad30bbe2213eb4d8312f7bb6190866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/Plastic_Gray_Mat.mat using Guid(4dad30bbe2213eb4d8312f7bb6190866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccca0438728623e9b6cee7ba358a6cf1') in 1.452817 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Blue Polygon/Rope Bridge 3D/Metarials/Rope.mat
+  artifactKey: Guid(144a8a517186aa3448bc033f0d5da32a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blue Polygon/Rope Bridge 3D/Metarials/Rope.mat using Guid(144a8a517186aa3448bc033f0d5da32a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eba9da739d9953cc41827d5616d0f9a2') in 0.034970 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/ExampleAssets/Models/safetyhat_low.fbx
+  artifactKey: Guid(9d0d902f71acfe646a46cb625f815a49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Models/safetyhat_low.fbx using Guid(9d0d902f71acfe646a46cb625f815a49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d5387426e5192d1f7826dadca9f4ea3') in 0.045030 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
   path: Assets/Blue Polygon/Rope Bridge 3D/Metarials/Wood1.mat
   artifactKey: Guid(d36829867c62e584aa7b7f62b1c03c26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blue Polygon/Rope Bridge 3D/Metarials/Wood1.mat using Guid(d36829867c62e584aa7b7f62b1c03c26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '647ea315c643e44b3ba819946a19885b') in 0.239155 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 312.208413 seconds.
-  path: Assets/BrokenVector/LowPolyFencePack/Models/Fence Type1 02.dae
-  artifactKey: Guid(e004c3c6d0ca04944ad39f9de61d9606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowPolyFencePack/Models/Fence Type1 02.dae using Guid(e004c3c6d0ca04944ad39f9de61d9606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2ed2e96eae2d5560fb4a1f619d4e18a') in 0.059450 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/BrokenVector/LowPolyFencePack/Models/Fence Type3 Door.fbx
-  artifactKey: Guid(d70931b351fe10a45a0bfc07fd362a1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowPolyFencePack/Models/Fence Type3 Door.fbx using Guid(d70931b351fe10a45a0bfc07fd362a1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbf9d106bc85b509512c849fa46282e9') in 0.246920 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/BrokenVector/LowPolyFencePack/Models/Fence Type4 Big.dae
-  artifactKey: Guid(73b1ed3ef1428a24787cba8b7d5ac6b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowPolyFencePack/Models/Fence Type4 Big.dae using Guid(73b1ed3ef1428a24787cba8b7d5ac6b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1b983ca0023f5b32e10a007a23b4175') in 0.027159 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/BrokenVector/LowPolyFencePack/Models/Fence Type1 Door.fbx
-  artifactKey: Guid(3bd29fe4ed3569940ac7518a56a0adfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowPolyFencePack/Models/Fence Type1 Door.fbx using Guid(3bd29fe4ed3569940ac7518a56a0adfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be54976ded6599f3a6e52c5e6be5fa0a') in 0.051035 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/BrokenVector/LowPolyFencePack/Models/Fence Type5 Small.dae
-  artifactKey: Guid(860b4a48bd6f3cf4b958a1d928e3c111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowPolyFencePack/Models/Fence Type5 Small.dae using Guid(860b4a48bd6f3cf4b958a1d928e3c111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d0cd7abe9387eb169859e6f0b1e0de1') in 0.027417 seconds 
+Start importing Assets/Blue Polygon/Rope Bridge 3D/Metarials/Wood1.mat using Guid(d36829867c62e584aa7b7f62b1c03c26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce51b2ddfd031b079abbc830b9a93eea') in 0.020885 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000035 seconds.
-  path: Assets/BrokenVector/LowPolyFencePack/Models/Fence Type4 Small.dae
-  artifactKey: Guid(6a52aea886ff71343a7b3ac3ec6dfd92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowPolyFencePack/Models/Fence Type4 Small.dae using Guid(6a52aea886ff71343a7b3ac3ec6dfd92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a92ad0e5213fcc0be8948c0335758d3') in 0.024170 seconds 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+  path: Packages/com.unity.probuilder/Content/Resources/Materials/VertexPickerHDRP.mat
+  artifactKey: Guid(7d5c9fc287a2aa945a98203d41282923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.probuilder/Content/Resources/Materials/VertexPickerHDRP.mat using Guid(7d5c9fc287a2aa945a98203d41282923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eecd3efa5c1a89cd1b43bd4e838ce236') in 0.018215 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/ExampleAssets/Materials/Strap_Mat.mat
+  artifactKey: Guid(81c1860e7800e5340bf8a54c565ba9ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/Strap_Mat.mat using Guid(81c1860e7800e5340bf8a54c565ba9ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a410c67f62c2b27b5ac4fb2335b36e0') in 0.172725 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Packages/com.unity.probuilder/Content/Resources/Materials/VertexPicker.mat
+  artifactKey: Guid(30a8575e1d4cc4e01a88ffbf4f973d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.probuilder/Content/Resources/Materials/VertexPicker.mat using Guid(30a8575e1d4cc4e01a88ffbf4f973d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e547205bf3ecb8220dea41333bae472a') in 0.046325 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Models/decorations/grass.fbx
+  artifactKey: Guid(23f0b891712426743bd60852274556e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Models/decorations/grass.fbx using Guid(23f0b891712426743bd60852274556e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3c9c9ca7455625aa4e163ecd1171241') in 0.056746 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Models/buildings/coffe_shop.fbx
+  artifactKey: Guid(72eb03613740c274493a17b1fb2c5184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Models/buildings/coffe_shop.fbx using Guid(72eb03613740c274493a17b1fb2c5184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e31b418042180197e1d32b781bb257f') in 0.093155 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Models/buildings/market.fbx
+  artifactKey: Guid(7ba1f5efbba9d3944b7d12536868f167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Models/buildings/market.fbx using Guid(7ba1f5efbba9d3944b7d12536868f167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '349fab6f6b46bd609a0354efe54acdee') in 0.067741 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Models/buildings/hospital.fbx
+  artifactKey: Guid(ad62ec56a4e2ce141822d985a947af93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Models/buildings/hospital.fbx using Guid(ad62ec56a4e2ce141822d985a947af93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c877243323e279ac54ab67c5fe9be7f8') in 0.097776 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Models/buildings/yellow_house.fbx
+  artifactKey: Guid(495f0ed2aadfa5748ae0b043f3e34aef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Models/buildings/yellow_house.fbx using Guid(495f0ed2aadfa5748ae0b043f3e34aef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eae37922c847c91ec1f69fbc8c02d242') in 0.075840 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Models/decorations/barrier.fbx
+  artifactKey: Guid(4f20aa054a8f9d74f9b0dc26f6568cc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Models/decorations/barrier.fbx using Guid(4f20aa054a8f9d74f9b0dc26f6568cc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a02eb12210159ee6bfcfa84e93115689') in 0.044574 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/ExampleAssets/Models/Workshop_Set.fbx
+  artifactKey: Guid(47616bd0cda748d4cbedcfc908506b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Models/Workshop_Set.fbx using Guid(47616bd0cda748d4cbedcfc908506b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67628112e3ce82a99da6f6aba72d255b') in 0.264404 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/ExampleAssets/Materials/PaintBrush_Mat.mat
+  artifactKey: Guid(539165557a9d3744680bb21164bea45e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/PaintBrush_Mat.mat using Guid(539165557a9d3744680bb21164bea45e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08eae70aca46646fbe825284aaa6af98') in 1.051233 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/PhysicalMaterial3DsMax/PhysicalMaterial3DsMax.shadergraph
+  artifactKey: Guid(44245ab89240f51459a5077d7145c452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/PhysicalMaterial3DsMax/PhysicalMaterial3DsMax.shadergraph using Guid(44245ab89240f51459a5077d7145c452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6405168a0c4b8db2f72485a1ff1e1b26') in 4.339367 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-BlackItalic.ttf
+  artifactKey: Guid(f95147a9bab9fe649b8070170fa7ebd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-BlackItalic.ttf using Guid(f95147a9bab9fe649b8070170fa7ebd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b87b2ae31f2b7d721ba8567b5259948f') in 0.669253 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Models/buildings/bakery.fbx
+  artifactKey: Guid(45e0e564cc7e22d4a89e8b862b96b385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Models/buildings/bakery.fbx using Guid(45e0e564cc7e22d4a89e8b862b96b385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47f8e0510d8755b612ab413a0ff3eafa') in 0.201392 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Shaders/AutodeskInteractive/AutodeskInteractive.shadergraph
+  artifactKey: Guid(0e9d5a909a1f7e84882a534d0d11e49f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Shaders/AutodeskInteractive/AutodeskInteractive.shadergraph using Guid(0e9d5a909a1f7e84882a534d0d11e49f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3cec1bf1c1132aa621b2d56b0edb4c1') in 2.036699 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Packages/com.unity.probuilder/Content/Resources/Materials/InvisibleFace.mat
+  artifactKey: Guid(978bbcf5050244f1b95128c04103f628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.probuilder/Content/Resources/Materials/InvisibleFace.mat using Guid(978bbcf5050244f1b95128c04103f628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bb060d43a94d265cf0bc9cae40f5a4f') in 0.031861 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Models/decorations/tree_3.fbx
+  artifactKey: Guid(3ca9d32739fe9a445887120c3b52b579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Models/decorations/tree_3.fbx using Guid(3ca9d32739fe9a445887120c3b52b579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e0d8aea9f43a5a394a51a588c7e7bdc') in 0.058018 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Models/decorations/table.fbx
+  artifactKey: Guid(dced69dc88f0e024085b06f4dd20210d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Models/decorations/table.fbx using Guid(dced69dc88f0e024085b06f4dd20210d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f70c0ab0a6f9c604aa008547c35e3303') in 0.032365 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/ExampleAssets/Materials/Plastic_White_Mat.mat
+  artifactKey: Guid(6cfe423139c361a459da7ed9831d4b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/Plastic_White_Mat.mat using Guid(6cfe423139c361a459da7ed9831d4b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7a314cbffee36b4f7834479f59d8fe3') in 0.037022 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '786e47a763baf53d4639c3fe6d84c0c8') in 0.061494 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/ExampleAssets/Models/Workbench_Low.fbx
+  artifactKey: Guid(ff6dc36862fe41641bb21568d92147c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Models/Workbench_Low.fbx using Guid(ff6dc36862fe41641bb21568d92147c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a78973e7f04aca1e4bc5f5a2512c344d') in 0.224568 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/ExampleAssets/Materials/OBS_Mat.mat
+  artifactKey: Guid(c438e5c679f1be040a135443008e2fce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/OBS_Mat.mat using Guid(c438e5c679f1be040a135443008e2fce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc9c568c5de0f9b6e406fea89d02ded1') in 0.211697 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-BoldItalic.ttf
+  artifactKey: Guid(dfb97a9307a577a41bcacba34b9a7e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-BoldItalic.ttf using Guid(dfb97a9307a577a41bcacba34b9a7e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b48ab036aadf1d116d1f5c0dfaf7b33') in 0.086921 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
+  artifactKey: Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat using Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b05832e8f31393ad8f3f3ccc83df2c19') in 0.115140 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/ExampleAssets/Models/jigsaw_low.fbx
+  artifactKey: Guid(8b73e8872ca76104bbca4ee2b704a1b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Models/jigsaw_low.fbx using Guid(8b73e8872ca76104bbca4ee2b704a1b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f76dcc3446ccdfe1e5dab3a5115a9dc') in 0.045401 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Packages/com.unity.probuilder/Content/Resources/Materials/EdgePickerHDRP.mat
+  artifactKey: Guid(980c24c5a501a9a429356d191ad356a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.probuilder/Content/Resources/Materials/EdgePickerHDRP.mat using Guid(980c24c5a501a9a429356d191ad356a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '209e29c4be7a3c5543eed123bd5e9dc2') in 0.018701 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Packages/com.unity.probuilder/Content/Resources/Materials/EdgePicker.mat
+  artifactKey: Guid(4ff996e3a0a5743a3987ab6231160665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.probuilder/Content/Resources/Materials/EdgePicker.mat using Guid(4ff996e3a0a5743a3987ab6231160665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e95b6f2324ebc7af97336bfe0dd3f8d') in 0.302658 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+  artifactKey: Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat using Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2fdccc771fea781649846d92eb3bede') in 0.094357 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Black.ttf
+  artifactKey: Guid(1062c701058745940ae5dca6219c64c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Black.ttf using Guid(1062c701058745940ae5dca6219c64c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53fe2d580b21060dd7264d78867ccc78') in 0.040852 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/ExampleAssets/Models/ConstructionLight_Low.fbx
+  artifactKey: Guid(e3ae06a3979f53046aa05330d69de1fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Models/ConstructionLight_Low.fbx using Guid(e3ae06a3979f53046aa05330d69de1fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d3de58b43718008569e7dc12826d07c') in 0.302376 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Models/decorations/chair.fbx
+  artifactKey: Guid(c4cf08600372000408439fb2a24d1dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Models/decorations/chair.fbx using Guid(c4cf08600372000408439fb2a24d1dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23eb4f9347ac213eebcf8895ddf32d74') in 0.156817 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/ExampleAssets/Materials/Metal_Blue_Simple_Mat.mat
+  artifactKey: Guid(cd71291c91c8cce499cb663b5db9970e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/Metal_Blue_Simple_Mat.mat using Guid(cd71291c91c8cce499cb663b5db9970e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1164da5b2afff403425b4ce060256d8') in 1.157098 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/ExampleAssets/Materials/DryWallPainted_Mat.mat
+  artifactKey: Guid(9b8eadc4de0544646b75ddcc43f8fd06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/DryWallPainted_Mat.mat using Guid(9b8eadc4de0544646b75ddcc43f8fd06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '463d12fb6463468e93708c95eb39357b') in 0.056654 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/ExampleAssets/Materials/HardHat_Mat.mat
+  artifactKey: Guid(e93789f0a5d66df4a81613935579642b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/HardHat_Mat.mat using Guid(e93789f0a5d66df4a81613935579642b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bb19ed6aa0a8da0f88c6a07bb822e08') in 0.147560 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Models/decorations/soda.fbx
+  artifactKey: Guid(640042c22d473f442ae288c8813d30e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Models/decorations/soda.fbx using Guid(640042c22d473f442ae288c8813d30e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf20fb54bcdc15eb8385c27657f6d11a') in 0.074254 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Models/decorations/car_light_red.fbx
+  artifactKey: Guid(0198796809a05514aa100f3fb72f51cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Models/decorations/car_light_red.fbx using Guid(0198796809a05514aa100f3fb72f51cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45b3298cebfb59ff27b6fd3c827da57c') in 0.082472 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Models/decorations/bush.fbx
+  artifactKey: Guid(53cb4950c8f6d5f4f94f448c21d2d865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Models/decorations/bush.fbx using Guid(53cb4950c8f6d5f4f94f448c21d2d865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd408d5de192e05ec5dfcffc723cc5b92') in 0.059762 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/ExampleAssets/Materials/Liquid_Mat.mat
+  artifactKey: Guid(c532880e607f8c84d8b9bf0c46a522ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/Liquid_Mat.mat using Guid(c532880e607f8c84d8b9bf0c46a522ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14a1372f1bc1ff34a619b3f9381b7ba9') in 1.128805 seconds 
