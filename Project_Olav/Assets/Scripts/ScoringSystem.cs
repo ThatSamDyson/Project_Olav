@@ -11,7 +11,7 @@ public class ScoringSystem : MonoBehaviour
 
     void Update()
     {
-        scoreText.GetComponent<TMPro.TextMeshProUGUI>().text = "SCORE: " + score;
+        scoreText.GetComponent<TMPro.TextMeshProUGUI>().text = "FISH: " + score;
         
     }
 }

@@ -10,19 +10,19 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: ae51ad94fa7d3764d957aa512d506d00, type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ae51ad94fa7d3764d957aa512d506d00, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.271
+      value: -0.096
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ae51ad94fa7d3764d957aa512d506d00, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.777
+      value: 0.608
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ae51ad94fa7d3764d957aa512d506d00, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -2.287
+      value: 12.87
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ae51ad94fa7d3764d957aa512d506d00, type: 3}
       propertyPath: m_LocalRotation.w
@@ -89,9 +89,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a6bcea6ba8ad39d45973f43a687b0ee9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  collectSound: {fileID: 0}
   Score: {fileID: 0}
-  pointValue: 0
+  pointValue: 1
 --- !u!114 &5519817271375041018
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -104,4 +103,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3092c93342b7494088cb00060d05fc9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _rotation: {x: 0, y: 0, z: 0}
+  _rotation: {x: 0, y: 0.5, z: 0}

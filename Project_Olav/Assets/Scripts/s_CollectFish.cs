@@ -5,7 +5,7 @@ using UnityEngine.SocialPlatforms.Impl;
 
 public class s_CollectFish : MonoBehaviour
 {
-    public AudioSource collectSound;
+    //public AudioSource collectSound;
     private ScoringSystem scoring;
     public GameObject Score;
     [SerializeField] public int pointValue;
@@ -17,7 +17,7 @@ public class s_CollectFish : MonoBehaviour
 
      void OnTriggerEnter(Collider other)
     {
-        collectSound.Play();
+        //collectSound.Play();
         scoring.score += pointValue;
         Destroy(gameObject);
     }
