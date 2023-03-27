@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3025383194816567243}
   - component: {fileID: 3025383194816567220}
   - component: {fileID: 3025383194816567221}
+  - component: {fileID: 8481470598850280645}
   m_Layer: 0
   m_Name: Player 1
   m_TagString: Player
@@ -34,7 +35,7 @@ Transform:
   - {fileID: 3025383196257288050}
   - {fileID: 3025383196198361353}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!136 &3025383194816567243
 CapsuleCollider:
@@ -82,6 +83,20 @@ MonoBehaviour:
   jumpForce: 5
   maxSpeed: 5
   playerCamera: {fileID: 0}
+--- !u!114 &8481470598850280645
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3025383194816567222}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f97ab0e218f178498c934da14c92c37, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PenguinMat: {fileID: 2100000, guid: c9be4415aa4e3754eb03f41b074e1003, type: 2}
+  renderer: {fileID: 3025383196257288049}
 --- !u!1 &3025383195901459727
 GameObject:
   m_ObjectHideFlags: 0
