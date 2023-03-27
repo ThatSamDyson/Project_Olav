@@ -7,12 +7,17 @@ public class SetTexture : MonoBehaviour
 
     private void Start()
     {
-        //PenguinMat = Resources.Load<Material>("PenguinMat");
         renderer = GetComponent<Renderer>();
-        renderer.material.SetColor("_Color", Random.ColorHSV());// = PenguinMat;
-        //Material oldMaterial = meshRenderer.material;
-        //Debug.Log("Applied Material: " + oldMaterial.name);
+        renderer.material.SetColor("_Color", Random.ColorHSV());
+      
 
         renderer.material = PenguinMat;
+    }
+
+
+    public void ChangeColour(Color ColourOfPaintCan)
+    {
+        renderer.material.SetColor("_Colour", ColourOfPaintCan);
+
     }
 }

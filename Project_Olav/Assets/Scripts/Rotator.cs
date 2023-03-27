@@ -8,7 +8,7 @@ public class Rotator : MonoBehaviour
     
     void Update()
     {
-        Debug.Log(_rotation);
+        
         transform.Rotate(_rotation);
     }
 }
