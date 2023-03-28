@@ -8,7 +8,7 @@ public class changeTexture : MonoBehaviour
 
     void Start()
     {
-        CanColour = Random.ColorHSV();
+        CanColour = Color.green;
     }
 
     private void OnTriggerEnter(Collider other)
