@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 134
+  controlID: 18
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -95,8 +95,8 @@ MonoBehaviour:
     y: 0
     width: 363
     height: 561
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -346,22 +346,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Models/buildings
+    - Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Prefabs/decorations
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Models/buildings
+  - Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Prefabs/decorations
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\SamDy\Documents\Uni\Project_Olav\Project_Olav
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 215}
-    m_SelectedIDs: 6c820000
-    m_LastClickedID: 33388
-    m_ExpandedIDs: 00000000d67e0000167f00001e7f0000227f0000247f0000787f00005a8200006a820000e884000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 135}
+    m_SelectedIDs: 4a7f0000
+    m_LastClickedID: 32586
+    m_ExpandedIDs: 00000000067900005479000056790000aa790000ac790000ae790000b479000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -389,7 +389,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000d67e0000
+    m_ExpandedIDs: 0000000006790000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -480,7 +480,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 67
+  m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:
@@ -516,10 +516,10 @@ MonoBehaviour:
     m_SaveData: []
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 0}
+      scrollPos: {x: 0, y: 2377}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 06fbffff9e70000004710000fa710000
+      m_ExpandedIDs: fe0dffff06fbffff1e720000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -823,9 +823,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 24.846436, y: 2.9566405, z: 63.148125}
+    m_Target: {x: 17.163277, y: 2.8416328, z: 64.75442}
     speed: 2
-    m_Value: {x: 24.846436, y: 2.9566405, z: 63.148125}
+    m_Value: {x: 17.163277, y: 2.8416328, z: 64.75442}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -871,13 +871,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.065210916, y: -0.7388456, z: 0.068529435, w: 0.667715}
+    m_Target: {x: -0.025522653, y: 0.9089959, z: -0.049547717, w: -0.4140638}
     speed: 2
-    m_Value: {x: 0.06529128, y: -0.7375906, z: 0.06840811, w: 0.6685935}
+    m_Value: {x: -0.026132042, y: 0.9085441, z: -0.050890453, w: -0.41385365}
   m_Size:
-    m_Target: 0.44297302
+    m_Target: 0.6299522
     speed: 2
-    m_Value: 0.44297302
+    m_Value: 0.6299522
   m_Ortho:
     m_Target: 0
     speed: 2
