@@ -15,7 +15,7 @@ C:/Users/SamDy/Documents/Uni/Project_Olav/Project_Olav
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-60990
+63771
 Successfully changed project path to: C:/Users/SamDy/Documents/Uni/Project_Olav/Project_Olav
 C:/Users/SamDy/Documents/Uni/Project_Olav/Project_Olav
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/SamDy/Documents/Uni/Project_Olav/Project_Olav
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 123.80 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 117.73 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.1.4f1 (76dd1f94b339)
 [Subsystems] Discovering subsystems at path C:/Program Files (x86)/2022.1.4f1/Editor/Data/Resources/UnitySubsystems
@@ -63,55 +63,511 @@ Initialize mono
 Mono path[0] = 'C:/Program Files (x86)/2022.1.4f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files (x86)/2022.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files (x86)/2022.1.4f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56944
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56364
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files (x86)/2022.1.4f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files (x86)/2022.1.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006424 seconds.
+Registered in 0.006697 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 123.28 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 121.45 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
 - Completed reload, in  0.696 seconds
 Domain Reload Profiling:
-	ReloadAssembly (697ms)
-		BeginReloadAssembly (75ms)
+	ReloadAssembly (696ms)
+		BeginReloadAssembly (72ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (517ms)
-			LoadAssemblies (73ms)
+		EndReloadAssembly (516ms)
+			LoadAssemblies (71ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (110ms)
-				TypeCache.Initialize (110ms)
-					TypeCache.ScanAssembly (108ms)
+			SetupTypeCache (112ms)
+				TypeCache.Initialize (111ms)
+					TypeCache.ScanAssembly (110ms)
 				ResolveRequiredComponents (0ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (26ms)
-			SetupLoadedEditorAssemblies (329ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (326ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (52ms)
-				SetLoadedEditorAssemblies (8ms)
-				RefreshPlugins (123ms)
+				InitializePlatformSupportModulesInManaged (54ms)
+				SetLoadedEditorAssemblies (9ms)
+				RefreshPlugins (122ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (103ms)
-				ProcessInitializeOnLoadMethodAttributes (41ms)
+				ProcessInitializeOnLoadAttributes (101ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.009371 seconds.
-Android Extension - Scanning For ADB Devices 4548 ms
+Registered in 0.010410 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\SamDy\Documents\Uni\Project_Olav\Project_Olav\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\SamDy\Documents\Uni\Project_Olav\Project_Olav\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 126.34 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 119.78 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.568 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1568ms)
+		BeginReloadAssembly (224ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (132ms)
+		EndReloadAssembly (1248ms)
+			LoadAssemblies (100ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (313ms)
+				TypeCache.Initialize (302ms)
+					TypeCache.ScanAssembly (296ms)
+				ResolveRequiredComponents (11ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (76ms)
+			SetupLoadedEditorAssemblies (703ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (6ms)
+				RefreshPlugins (120ms)
+				BeforeProcessingInitializeOnLoad (139ms)
+				ProcessInitializeOnLoadAttributes (331ms)
+				ProcessInitializeOnLoadMethodAttributes (80ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 2.14 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6191 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 53 unused Assets / (475.6 KB). Loaded Objects now: 6660.
+Memory consumption went from 0.96 GB to 0.96 GB.
+Total: 4.592800 ms (FindLiveObjects: 0.701500 ms CreateObjectMapping: 0.172500 ms MarkObjects: 3.401400 ms  DeleteObjects: 0.315300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 175841.067652 seconds.
+  path: Assets/Prefabs/Sign.prefab
+  artifactKey: Guid(727dd352aacd06d49a24c65414a1fc51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Sign.prefab using Guid(727dd352aacd06d49a24c65414a1fc51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf19d690532cd04d50a3a780d49a61be') in 0.488178 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 479.722507 seconds.
+  path: Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Prefabs/decorations/Corner.prefab
+  artifactKey: Guid(b0b3e735f3dad9a4f8a96fdf26cd2e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Prefabs/decorations/Corner.prefab using Guid(b0b3e735f3dad9a4f8a96fdf26cd2e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2c6e1fdd802aab1840c70850ae62723') in 0.020404 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.205882 seconds.
+  path: Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Prefabs/decorations/Corner.prefab
+  artifactKey: Guid(b0b3e735f3dad9a4f8a96fdf26cd2e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Prefabs/decorations/Corner.prefab using Guid(b0b3e735f3dad9a4f8a96fdf26cd2e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '862ee5cbc309ff359086b4904dcf9762') in 0.022778 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 26.742342 seconds.
+  path: Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Prefabs/decorations/Corner.prefab
+  artifactKey: Guid(b0b3e735f3dad9a4f8a96fdf26cd2e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Prefabs/decorations/Corner.prefab using Guid(b0b3e735f3dad9a4f8a96fdf26cd2e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff873085d901b1a094555feaca2981ab') in 0.015266 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.201994 seconds.
+  path: Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Prefabs/decorations/Corner.prefab
+  artifactKey: Guid(b0b3e735f3dad9a4f8a96fdf26cd2e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Prefabs/decorations/Corner.prefab using Guid(b0b3e735f3dad9a4f8a96fdf26cd2e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22adadfc038ad28709493e1185b5840c') in 0.014084 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.988897 seconds.
+  path: Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Prefabs/decorations/Corner.prefab
+  artifactKey: Guid(b0b3e735f3dad9a4f8a96fdf26cd2e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Prefabs/decorations/Corner.prefab using Guid(b0b3e735f3dad9a4f8a96fdf26cd2e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '804e1fe97e987089424afcb41986a507') in 0.015312 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.781646 seconds.
+  path: Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Prefabs/decorations/Corner.prefab
+  artifactKey: Guid(b0b3e735f3dad9a4f8a96fdf26cd2e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Prefabs/decorations/Corner.prefab using Guid(b0b3e735f3dad9a4f8a96fdf26cd2e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f067231f7cedf3abdfac858d4f383cd') in 0.023123 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.331805 seconds.
+  path: Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Prefabs/decorations/Corner.prefab
+  artifactKey: Guid(b0b3e735f3dad9a4f8a96fdf26cd2e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Prefabs/decorations/Corner.prefab using Guid(b0b3e735f3dad9a4f8a96fdf26cd2e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1da21cee669589d9acd9404426113fd7') in 0.039400 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.460910 seconds.
+  path: Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Prefabs/decorations/Corner.prefab
+  artifactKey: Guid(b0b3e735f3dad9a4f8a96fdf26cd2e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Prefabs/decorations/Corner.prefab using Guid(b0b3e735f3dad9a4f8a96fdf26cd2e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bfcad4a947fa34a13cbbb195dfa62ae') in 0.017112 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.215653 seconds.
+  path: Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Prefabs/decorations/Corner.prefab
+  artifactKey: Guid(b0b3e735f3dad9a4f8a96fdf26cd2e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Prefabs/decorations/Corner.prefab using Guid(b0b3e735f3dad9a4f8a96fdf26cd2e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1947a18d7068b8bb8fa4ca270f339a8') in 0.022588 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.604426 seconds.
+  path: Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Prefabs/decorations/Corner.prefab
+  artifactKey: Guid(b0b3e735f3dad9a4f8a96fdf26cd2e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Prefabs/decorations/Corner.prefab using Guid(b0b3e735f3dad9a4f8a96fdf26cd2e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb38a2efeb52c7ea5e7323f3b2f30ce7') in 0.017323 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.587380 seconds.
+  path: Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Prefabs/decorations/Corner.prefab
+  artifactKey: Guid(b0b3e735f3dad9a4f8a96fdf26cd2e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Prefabs/decorations/Corner.prefab using Guid(b0b3e735f3dad9a4f8a96fdf26cd2e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4743ccd3eff373c208585e5f780aef6f') in 0.033216 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.639233 seconds.
+  path: Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Prefabs/decorations/Corner.prefab
+  artifactKey: Guid(b0b3e735f3dad9a4f8a96fdf26cd2e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Prefabs/decorations/Corner.prefab using Guid(b0b3e735f3dad9a4f8a96fdf26cd2e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c542c3a5638dd35d85c9e16709ad8fc5') in 0.023609 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.232636 seconds.
+  path: Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Prefabs/decorations/Corner.prefab
+  artifactKey: Guid(b0b3e735f3dad9a4f8a96fdf26cd2e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Prefabs/decorations/Corner.prefab using Guid(b0b3e735f3dad9a4f8a96fdf26cd2e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f5d35c5594e702add07dbb70f37cc2e') in 0.032498 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.611518 seconds.
+  path: Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Prefabs/decorations/Corner.prefab
+  artifactKey: Guid(b0b3e735f3dad9a4f8a96fdf26cd2e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Prefabs/decorations/Corner.prefab using Guid(b0b3e735f3dad9a4f8a96fdf26cd2e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed67a0795fec008b4f5cc6ae1f30a4fa') in 0.016669 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.227057 seconds.
+  path: Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Prefabs/decorations/Corner.prefab
+  artifactKey: Guid(b0b3e735f3dad9a4f8a96fdf26cd2e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Prefabs/decorations/Corner.prefab using Guid(b0b3e735f3dad9a4f8a96fdf26cd2e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '557dde8589824df334face54213c2328') in 0.021250 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.425681 seconds.
+  path: Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Prefabs/decorations/Corner.prefab
+  artifactKey: Guid(b0b3e735f3dad9a4f8a96fdf26cd2e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Prefabs/decorations/Corner.prefab using Guid(b0b3e735f3dad9a4f8a96fdf26cd2e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dc29b02ae0cbee2e3a94bc0983e0d07') in 0.015900 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.869385 seconds.
+  path: Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Prefabs/decorations/Corner.prefab
+  artifactKey: Guid(b0b3e735f3dad9a4f8a96fdf26cd2e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Prefabs/decorations/Corner.prefab using Guid(b0b3e735f3dad9a4f8a96fdf26cd2e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '138cf547956284b8116246630eebfff5') in 0.019823 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.132406 seconds.
+  path: Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Prefabs/decorations/Corner.prefab
+  artifactKey: Guid(b0b3e735f3dad9a4f8a96fdf26cd2e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Prefabs/decorations/Corner.prefab using Guid(b0b3e735f3dad9a4f8a96fdf26cd2e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da831fce271b22662d589a98e6550b24') in 0.018921 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.236204 seconds.
+  path: Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Prefabs/decorations/Corner.prefab
+  artifactKey: Guid(b0b3e735f3dad9a4f8a96fdf26cd2e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Prefabs/decorations/Corner.prefab using Guid(b0b3e735f3dad9a4f8a96fdf26cd2e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c7b41bc76cba8e6c60133c4b6f03a0e') in 0.018457 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.413702 seconds.
+  path: Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Prefabs/decorations/Corner.prefab
+  artifactKey: Guid(b0b3e735f3dad9a4f8a96fdf26cd2e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Prefabs/decorations/Corner.prefab using Guid(b0b3e735f3dad9a4f8a96fdf26cd2e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a013b305d20d4b20b386314455026604') in 0.022242 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.021040 seconds.
+  path: Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Prefabs/decorations/Corner.prefab
+  artifactKey: Guid(b0b3e735f3dad9a4f8a96fdf26cd2e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Prefabs/decorations/Corner.prefab using Guid(b0b3e735f3dad9a4f8a96fdf26cd2e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9849515dcc8dae929a429584cf12c3fe') in 0.018574 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.979510 seconds.
+  path: Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Prefabs/decorations/Corner.prefab
+  artifactKey: Guid(b0b3e735f3dad9a4f8a96fdf26cd2e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Prefabs/decorations/Corner.prefab using Guid(b0b3e735f3dad9a4f8a96fdf26cd2e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba1b9b35df16da11a4ac56ef4127c571') in 0.018443 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.868433 seconds.
+  path: Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Prefabs/decorations/Corner.prefab
+  artifactKey: Guid(b0b3e735f3dad9a4f8a96fdf26cd2e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Prefabs/decorations/Corner.prefab using Guid(b0b3e735f3dad9a4f8a96fdf26cd2e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c08d5b5a03bdc64235bdb6222073ba0') in 0.017438 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.996466 seconds.
+  path: Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Prefabs/decorations/Corner.prefab
+  artifactKey: Guid(b0b3e735f3dad9a4f8a96fdf26cd2e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Prefabs/decorations/Corner.prefab using Guid(b0b3e735f3dad9a4f8a96fdf26cd2e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9169d74302dac9bf7bae2a2da2d892e5') in 0.016599 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.011137 seconds.
+  path: Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Prefabs/decorations/Corner.prefab
+  artifactKey: Guid(b0b3e735f3dad9a4f8a96fdf26cd2e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Prefabs/decorations/Corner.prefab using Guid(b0b3e735f3dad9a4f8a96fdf26cd2e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80f9b113077058b9c3d869ee85df3db4') in 0.015649 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.615606 seconds.
+  path: Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Prefabs/decorations/Corner.prefab
+  artifactKey: Guid(b0b3e735f3dad9a4f8a96fdf26cd2e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Prefabs/decorations/Corner.prefab using Guid(b0b3e735f3dad9a4f8a96fdf26cd2e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99043afa91c5639ca8fe022fb67ec071') in 0.016903 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.726744 seconds.
+  path: Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Prefabs/decorations/Corner.prefab
+  artifactKey: Guid(b0b3e735f3dad9a4f8a96fdf26cd2e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Prefabs/decorations/Corner.prefab using Guid(b0b3e735f3dad9a4f8a96fdf26cd2e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '813022e944756dd3b6c3ce3e22f180cf') in 0.016591 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.819534 seconds.
+  path: Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Prefabs/decorations/Corner.prefab
+  artifactKey: Guid(b0b3e735f3dad9a4f8a96fdf26cd2e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Prefabs/decorations/Corner.prefab using Guid(b0b3e735f3dad9a4f8a96fdf26cd2e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81b14971a3b1c18c7347209db6f2abe5') in 0.018215 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.608709 seconds.
+  path: Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Prefabs/decorations/Corner.prefab
+  artifactKey: Guid(b0b3e735f3dad9a4f8a96fdf26cd2e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Prefabs/decorations/Corner.prefab using Guid(b0b3e735f3dad9a4f8a96fdf26cd2e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34968718be1b05b300b73d868216aea9') in 0.017437 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.617199 seconds.
+  path: Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Prefabs/decorations/Corner.prefab
+  artifactKey: Guid(b0b3e735f3dad9a4f8a96fdf26cd2e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Prefabs/decorations/Corner.prefab using Guid(b0b3e735f3dad9a4f8a96fdf26cd2e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07ed9a03031ce217955b6cdbe18370bc') in 0.020443 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.015149 seconds.
+  path: Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Prefabs/decorations/Corner.prefab
+  artifactKey: Guid(b0b3e735f3dad9a4f8a96fdf26cd2e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Prefabs/decorations/Corner.prefab using Guid(b0b3e735f3dad9a4f8a96fdf26cd2e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1729b60fe9b603edb1943752cec3368') in 0.016899 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.045453 seconds.
+  path: Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Prefabs/decorations/Corner.prefab
+  artifactKey: Guid(b0b3e735f3dad9a4f8a96fdf26cd2e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Prefabs/decorations/Corner.prefab using Guid(b0b3e735f3dad9a4f8a96fdf26cd2e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df756c2c068520cb68c42a30c850e4e0') in 0.020014 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.812943 seconds.
+  path: Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Prefabs/decorations/Corner.prefab
+  artifactKey: Guid(b0b3e735f3dad9a4f8a96fdf26cd2e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Prefabs/decorations/Corner.prefab using Guid(b0b3e735f3dad9a4f8a96fdf26cd2e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d3de0ba1525cbb41882f37c24ade9cb') in 0.016115 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.035754 seconds.
+  path: Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Prefabs/decorations/Corner.prefab
+  artifactKey: Guid(b0b3e735f3dad9a4f8a96fdf26cd2e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Prefabs/decorations/Corner.prefab using Guid(b0b3e735f3dad9a4f8a96fdf26cd2e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef15796d8509b31577d44d5fb844d502') in 0.016846 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.794776 seconds.
+  path: Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Prefabs/decorations/Corner.prefab
+  artifactKey: Guid(b0b3e735f3dad9a4f8a96fdf26cd2e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Prefabs/decorations/Corner.prefab using Guid(b0b3e735f3dad9a4f8a96fdf26cd2e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49f40404c1f9cf2b146cf0f58bfccfd5') in 0.015076 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.823955 seconds.
+  path: Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Prefabs/decorations/Corner.prefab
+  artifactKey: Guid(b0b3e735f3dad9a4f8a96fdf26cd2e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Prefabs/decorations/Corner.prefab using Guid(b0b3e735f3dad9a4f8a96fdf26cd2e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5613836df200356517a6ece7a20ec4ab') in 0.017064 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.007331 seconds.
+  path: Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Prefabs/decorations/Corner.prefab
+  artifactKey: Guid(b0b3e735f3dad9a4f8a96fdf26cd2e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Prefabs/decorations/Corner.prefab using Guid(b0b3e735f3dad9a4f8a96fdf26cd2e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d33a62d3877e7b9b9f33e6bf72a9bec') in 0.016690 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.611280 seconds.
+  path: Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Prefabs/decorations/Corner.prefab
+  artifactKey: Guid(b0b3e735f3dad9a4f8a96fdf26cd2e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Prefabs/decorations/Corner.prefab using Guid(b0b3e735f3dad9a4f8a96fdf26cd2e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '993e9cd7623ca87a3311611cb01c6613') in 0.034125 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.800284 seconds.
+  path: Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Prefabs/decorations/Corner.prefab
+  artifactKey: Guid(b0b3e735f3dad9a4f8a96fdf26cd2e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Prefabs/decorations/Corner.prefab using Guid(b0b3e735f3dad9a4f8a96fdf26cd2e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a40f81d3093d0b35cd433693d492dfe') in 0.015048 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.812281 seconds.
+  path: Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Prefabs/decorations/Corner.prefab
+  artifactKey: Guid(b0b3e735f3dad9a4f8a96fdf26cd2e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Prefabs/decorations/Corner.prefab using Guid(b0b3e735f3dad9a4f8a96fdf26cd2e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a766312bf31f0696f9821e0e5978d44') in 0.037640 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1538.841390 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(f29334c6c9b0ab24a999f6e15da103e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(f29334c6c9b0ab24a999f6e15da103e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree Tree1 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+The tree Tree2 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+The tree Grass_01 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+ -> (artifact id: '61bed7b0d7a871a99f5ceebe7ee6a549') in 0.036054 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007718 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\SamDy\Documents\Uni\Project_Olav\Project_Olav\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\SamDy\Documents\Uni\Project_Olav\Project_Olav\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.40 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.317 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1317ms)
+		BeginReloadAssembly (150ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (51ms)
+		EndReloadAssembly (1075ms)
+			LoadAssemblies (87ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (289ms)
+				TypeCache.Initialize (277ms)
+					TypeCache.ScanAssembly (270ms)
+				ResolveRequiredComponents (12ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (555ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (8ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (110ms)
+				ProcessInitializeOnLoadAttributes (321ms)
+				ProcessInitializeOnLoadMethodAttributes (86ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.13 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6023 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (443.0 KB). Loaded Objects now: 6729.
+Memory consumption went from 0.93 GB to 0.93 GB.
+Total: 5.016400 ms (FindLiveObjects: 0.656600 ms CreateObjectMapping: 0.497600 ms MarkObjects: 3.589100 ms  DeleteObjects: 0.271600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007638 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\SamDy\Documents\Uni\Project_Olav\Project_Olav\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\SamDy\Documents\Uni\Project_Olav\Project_Olav\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.323 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1324ms)
+		BeginReloadAssembly (142ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (48ms)
+		EndReloadAssembly (1090ms)
+			LoadAssemblies (92ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (318ms)
+				TypeCache.Initialize (306ms)
+					TypeCache.ScanAssembly (299ms)
+				ResolveRequiredComponents (13ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (540ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (7ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (105ms)
+				ProcessInitializeOnLoadAttributes (313ms)
+				ProcessInitializeOnLoadMethodAttributes (85ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.40 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6023 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (435.2 KB). Loaded Objects now: 6745.
+Memory consumption went from 0.93 GB to 0.93 GB.
+Total: 5.158800 ms (FindLiveObjects: 0.614100 ms CreateObjectMapping: 0.374500 ms MarkObjects: 3.831100 ms  DeleteObjects: 0.337300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3589.036061 seconds.
+  path: Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Prefabs/buildings/cinema.prefab
+  artifactKey: Guid(7a3ec7b4b9f458c4581bd407a56c1497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Prefabs/buildings/cinema.prefab using Guid(7a3ec7b4b9f458c4581bd407a56c1497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d0ae1a64d4ff9318ddf38129180d356') in 1.145845 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.275596 seconds.
+  path: Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Materials/Posters.mat
+  artifactKey: Guid(e8340906c3c70a74dbf233c4b4675dd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Materials/Posters.mat using Guid(e8340906c3c70a74dbf233c4b4675dd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af0508ab231ab4d5c01d33030a123f98') in 0.045024 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 44.645018 seconds.
+  path: Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Materials/Materials/Posters.mat
+  artifactKey: Guid(e8340906c3c70a74dbf233c4b4675dd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Materials/Materials/Posters.mat using Guid(e8340906c3c70a74dbf233c4b4675dd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcc088052802cd3ffe0fc89d914efdb2') in 0.069427 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 208.454177 seconds.
+  path: Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Prefabs/buildings/cinema.prefab
+  artifactKey: Guid(7a3ec7b4b9f458c4581bd407a56c1497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Prefabs/buildings/cinema.prefab using Guid(7a3ec7b4b9f458c4581bd407a56c1497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b70d1cdfd58c506a4aab30e3585fc487') in 0.117728 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 28.418343 seconds.
+  path: Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Prefabs/buildings/hospital.prefab
+  artifactKey: Guid(1f79ed5ca6074be449bf893105b2b00c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Prefabs/buildings/hospital.prefab using Guid(1f79ed5ca6074be449bf893105b2b00c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29d19e3162e511c1d24d539819b6fe7c') in 0.052528 seconds 
