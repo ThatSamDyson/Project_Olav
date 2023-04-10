@@ -7,8 +7,8 @@ public class SetTexture : MonoBehaviour
 
     private void Start()
     {
-        renderer = GetComponent<Renderer>();
-        renderer.material.SetColor("_Color", Random.ColorHSV());
+        renderer = GetComponentInChildren<Renderer>();
+        renderer.material.SetColor("_Color", Color.red);
       
 
         renderer.material = PenguinMat;
