@@ -4,11 +4,15 @@ using UnityEngine;
 
 public class changeTexture : MonoBehaviour
 {
+    [SerializeField]
     Color CanColour;
+
+    Renderer renderer;
 
     void Start()
     {
-        CanColour = Color.green;
+        renderer = GetComponent<Renderer>();
+        renderer.material.SetColor("_BaseColor", CanColour);
     }
 
     private void OnTriggerEnter(Collider other)
