@@ -8,7 +8,7 @@ public class Charge : MonoBehaviour
     public Transform[] points;
     private int destPoint = 0;
     private NavMeshAgent agent;
-    [SerializeField] GameObject hitcube;
+    //[SerializeField] GameObject hitcube;
     
 
 
@@ -26,6 +26,7 @@ public class Charge : MonoBehaviour
         {
             goToNextPoint();
             GetComponent<BoxCollider>().enabled = false;
+
         }
     }
 
