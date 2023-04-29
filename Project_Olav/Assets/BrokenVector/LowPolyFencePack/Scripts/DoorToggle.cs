@@ -2,11 +2,7 @@
 
 namespace BrokenVector.LowPolyFencePack
 {
-    /// <summary>
-    /// This class toggles the door animation.
-    /// The gameobject of this script has to have the DoorController script which needs an Animator component
-    /// and some kind of Collider which detects your mouse click applied.
-    /// </summary>
+  
     [RequireComponent(typeof(DoorController))]
 	public class DoorToggle : MonoBehaviour
     {
@@ -18,10 +14,24 @@ namespace BrokenVector.LowPolyFencePack
             doorController = GetComponent<DoorController>();
         }
 
-	    void OnMouseDown()
-	    {
-	        doorController.ToggleDoor();
-	    }
 
-	}
+        private void OnTriggerEnter(Collider other)
+        {
+
+            if (other.gameObject.tag == "Player")
+            {
+                doorController.ToggleDoor();
+
+            }
+        }
+
+        private void OnTriggerExit(Collider other)
+        {
+            if (other.gameObject.tag == "Player")
+            {
+                doorController.ToggleDoor();
+
+            }
+        }
+    }
 }

@@ -1,23 +1,23 @@
 Using pre-set license
 Built from '2022.1/staging' branch; Version is '2022.1.4f1 (76dd1f94b339) revision 7789855'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19044) 64bit Enterprise' Language: 'en' Physical Memory: 32512 MB
+OS: 'Windows 10  (10.0.19044) 64bit Core' Language: 'en' Physical Memory: 32696 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity 2022.1.4f1\Editor\Unity.exe
+C:\Program Files (x86)\2022.1.4f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker6
 -projectPath
-C:/Users/d010941k/Documents/GitHub/Project_Olav/Project_Olav
+C:/Users/SamDy/Documents/Uni/Project_Olav/Project_Olav
 -logFile
 Logs/AssetImportWorker6.log
 -srvPort
-63823
-Successfully changed project path to: C:/Users/d010941k/Documents/GitHub/Project_Olav/Project_Olav
-C:/Users/d010941k/Documents/GitHub/Project_Olav/Project_Olav
+62843
+Successfully changed project path to: C:/Users/SamDy/Documents/Uni/Project_Olav/Project_Olav
+C:/Users/SamDy/Documents/Uni/Project_Olav/Project_Olav
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,298 +47,64 @@ C:/Users/d010941k/Documents/GitHub/Project_Olav/Project_Olav
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 121.80 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 124.27 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.1.4f1 (76dd1f94b339)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2022.1.4f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/d010941k/Documents/GitHub/Project_Olav/Project_Olav/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files (x86)/2022.1.4f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/SamDy/Documents/Uni/Project_Olav/Project_Olav/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 3080 (ID=0x2206)
+    Renderer: NVIDIA GeForce RTX 2060 SUPER (ID=0x1f06)
     Vendor:   NVIDIA
-    VRAM:     10067 MB
-    Driver:   31.0.15.2802
+    VRAM:     8019 MB
+    Driver:   31.0.15.2824
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity 2022.1.4f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity 2022.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity 2022.1.4f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56812
+Mono path[0] = 'C:/Program Files (x86)/2022.1.4f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files (x86)/2022.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files (x86)/2022.1.4f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56072
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity 2022.1.4f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: C:/Program Files/Unity 2022.1.4f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Register platform support module: C:/Program Files/Unity 2022.1.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004530 seconds.
+Register platform support module: C:/Program Files (x86)/2022.1.4f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files (x86)/2022.1.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007324 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 96.77 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 122.65 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.554 seconds
+- Completed reload, in  0.726 seconds
 Domain Reload Profiling:
-	ReloadAssembly (554ms)
-		BeginReloadAssembly (63ms)
+	ReloadAssembly (727ms)
+		BeginReloadAssembly (82ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (408ms)
-			LoadAssemblies (62ms)
+		EndReloadAssembly (533ms)
+			LoadAssemblies (79ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (83ms)
-				TypeCache.Initialize (83ms)
-					TypeCache.ScanAssembly (82ms)
+			SetupTypeCache (119ms)
+				TypeCache.Initialize (119ms)
+					TypeCache.ScanAssembly (117ms)
 				ResolveRequiredComponents (0ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (23ms)
-			SetupLoadedEditorAssemblies (261ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (335ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (34ms)
-				SetLoadedEditorAssemblies (5ms)
-				RefreshPlugins (97ms)
+				InitializePlatformSupportModulesInManaged (54ms)
+				SetLoadedEditorAssemblies (8ms)
+				RefreshPlugins (123ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (87ms)
-				ProcessInitializeOnLoadMethodAttributes (36ms)
+				ProcessInitializeOnLoadAttributes (104ms)
+				ProcessInitializeOnLoadMethodAttributes (44ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.007743 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\d010941k\Documents\GitHub\Project_Olav\Project_Olav\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\d010941k\Documents\GitHub\Project_Olav\Project_Olav\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 101.91 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.245 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1246ms)
-		BeginReloadAssembly (99ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (18ms)
-		EndReloadAssembly (1063ms)
-			LoadAssemblies (85ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (274ms)
-				TypeCache.Initialize (264ms)
-					TypeCache.ScanAssembly (259ms)
-				ResolveRequiredComponents (10ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (63ms)
-			SetupLoadedEditorAssemblies (594ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (18ms)
-				SetLoadedEditorAssemblies (6ms)
-				RefreshPlugins (102ms)
-				BeforeProcessingInitializeOnLoad (111ms)
-				ProcessInitializeOnLoadAttributes (285ms)
-				ProcessInitializeOnLoadMethodAttributes (66ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.88 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6195 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 53 unused Assets / (457.5 KB). Loaded Objects now: 6659.
-Memory consumption went from 0.96 GB to 0.96 GB.
-Total: 3.111900 ms (FindLiveObjects: 0.398100 ms CreateObjectMapping: 0.246700 ms MarkObjects: 2.308200 ms  DeleteObjects: 0.158000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005338 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\d010941k\Documents\GitHub\Project_Olav\Project_Olav\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\d010941k\Documents\GitHub\Project_Olav\Project_Olav\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.90 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.153 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1154ms)
-		BeginReloadAssembly (126ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (42ms)
-		EndReloadAssembly (948ms)
-			LoadAssemblies (82ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (279ms)
-				TypeCache.Initialize (269ms)
-					TypeCache.ScanAssembly (263ms)
-				ResolveRequiredComponents (10ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (47ms)
-			SetupLoadedEditorAssemblies (480ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (19ms)
-				SetLoadedEditorAssemblies (6ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (84ms)
-				ProcessInitializeOnLoadAttributes (283ms)
-				ProcessInitializeOnLoadMethodAttributes (82ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.16 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6028 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 28 unused Assets / (440.0 KB). Loaded Objects now: 6675.
-Memory consumption went from 0.93 GB to 0.93 GB.
-Total: 3.541600 ms (FindLiveObjects: 0.497800 ms CreateObjectMapping: 0.367100 ms MarkObjects: 2.525500 ms  DeleteObjects: 0.149700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 126928.419407 seconds.
-  path: Assets/Paulisia_S
-  artifactKey: Guid(b1cc834c77b160a439fefae4ee904bba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Paulisia_S using Guid(b1cc834c77b160a439fefae4ee904bba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '009ddd5c4c35444a6d1961c4613fbd49') in 0.018952 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.050014 seconds.
-  path: Assets/Paulisia_S/3D Game Kit - Lowpoly city assets
-  artifactKey: Guid(765337843a4b93344b2b44b5e3d31d6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Paulisia_S/3D Game Kit - Lowpoly city assets using Guid(765337843a4b93344b2b44b5e3d31d6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a8aff767de4ed01206ce16e8c134499') in 0.006637 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.267513 seconds.
-  path: Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Materials
-  artifactKey: Guid(84101559c9a7d9d4fa6cfc7cd8198662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Materials using Guid(84101559c9a7d9d4fa6cfc7cd8198662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fafaa2bca571e202d20e82f070acd16') in 0.006408 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.362415 seconds.
-  path: Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Models
-  artifactKey: Guid(f6201785b4ddc4a49878f9adcd0dd60d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Models using Guid(f6201785b4ddc4a49878f9adcd0dd60d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eec06c38cd1ec25ee06e5ebd0fd0ba77') in 0.006615 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.786484 seconds.
-  path: Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Models/decorations
-  artifactKey: Guid(db0253f35aa6c194ebf5b7ff14534a44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Models/decorations using Guid(db0253f35aa6c194ebf5b7ff14534a44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa4d53c07a158ed84eaefe2506623b87') in 0.007235 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.096620 seconds.
-  path: Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Models/decorations/barrier.fbx
-  artifactKey: Guid(4f20aa054a8f9d74f9b0dc26f6568cc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Models/decorations/barrier.fbx using Guid(4f20aa054a8f9d74f9b0dc26f6568cc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a02eb12210159ee6bfcfa84e93115689') in 0.281641 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Models/decorations/car_light_green.fbx
-  artifactKey: Guid(d6fbc3bb1f742b240a2f5d916196a9e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Models/decorations/car_light_green.fbx using Guid(d6fbc3bb1f742b240a2f5d916196a9e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c05799eda4b2f0e0a53cd40101aa91fb') in 0.057118 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Models/decorations/tree_1.fbx
-  artifactKey: Guid(b8b6e8d87f105034d9e39110e4a7d682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Models/decorations/tree_1.fbx using Guid(b8b6e8d87f105034d9e39110e4a7d682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58f59b911e69c9952e89494b0b5dc344') in 0.067432 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Models/decorations/post.fbx
-  artifactKey: Guid(14af0bb9749c31048ba40cc960b59d51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Models/decorations/post.fbx using Guid(14af0bb9749c31048ba40cc960b59d51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68ec04b99f24665456388c1a36f8b641') in 0.035831 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Models/decorations/tree_2.fbx
-  artifactKey: Guid(5b3f5447e836ccf45b4f17e45301ea52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Models/decorations/tree_2.fbx using Guid(5b3f5447e836ccf45b4f17e45301ea52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c5394c96214f4bb535b564c800cfecf') in 0.045125 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Models/decorations/umbrella.fbx
-  artifactKey: Guid(d104e4e7519fa424fa08db8fbd69cd64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Models/decorations/umbrella.fbx using Guid(d104e4e7519fa424fa08db8fbd69cd64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0289d347c9b6ca953b27b2dbc3aac499') in 0.034722 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Models/decorations/hydrant.fbx
-  artifactKey: Guid(e8f9cc066944edf4a8cfcc7ea94eadb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Models/decorations/hydrant.fbx using Guid(e8f9cc066944edf4a8cfcc7ea94eadb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fee5cb6c5b57f75a8f75a277fb15f321') in 0.036940 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Models/decorations/light_green.fbx
-  artifactKey: Guid(5a42b2ea63e8faf4fbfef540ddbe827d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Models/decorations/light_green.fbx using Guid(5a42b2ea63e8faf4fbfef540ddbe827d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6aff47cac3c4c43ee8a9ce5962160c84') in 0.041756 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Models/decorations/chair.fbx
-  artifactKey: Guid(c4cf08600372000408439fb2a24d1dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Models/decorations/chair.fbx using Guid(c4cf08600372000408439fb2a24d1dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23eb4f9347ac213eebcf8895ddf32d74') in 0.026186 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Models/decorations/bus_stop_sign.fbx
-  artifactKey: Guid(3c494e4daab982a47b54cfb3e1073f8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Models/decorations/bus_stop_sign.fbx using Guid(3c494e4daab982a47b54cfb3e1073f8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b21289b3cf633c865d018501d090eaeb') in 0.038127 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Models/decorations/table.fbx
-  artifactKey: Guid(dced69dc88f0e024085b06f4dd20210d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Models/decorations/table.fbx using Guid(dced69dc88f0e024085b06f4dd20210d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f70c0ab0a6f9c604aa008547c35e3303') in 0.028070 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Models/decorations/soda.fbx
-  artifactKey: Guid(640042c22d473f442ae288c8813d30e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Models/decorations/soda.fbx using Guid(640042c22d473f442ae288c8813d30e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf20fb54bcdc15eb8385c27657f6d11a') in 0.053377 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Models/decorations/bush.fbx
-  artifactKey: Guid(53cb4950c8f6d5f4f94f448c21d2d865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Models/decorations/bush.fbx using Guid(53cb4950c8f6d5f4f94f448c21d2d865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd408d5de192e05ec5dfcffc723cc5b92') in 0.043275 seconds 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+Registered in 0.009293 seconds.
+Android Extension - Scanning For ADB Devices 4452 ms

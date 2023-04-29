@@ -14,6 +14,7 @@ public class S_playerController : MonoBehaviour
     [SerializeField] private float movementForce = 1f;
     [SerializeField] private float jumpForce = 5f;
     [SerializeField] private float maxSpeed = 5f;
+    [SerializeField] private float launchForce = 1f;
     private Vector3 forceDirection = Vector3.zero;
 
     [SerializeField] private Camera playerCamera;
@@ -105,5 +106,17 @@ public class S_playerController : MonoBehaviour
             return true;
         else
             return false;
+    }
+
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.tag == "JumpPad")
+        {
+            rb.AddForce(new Vector3(0f, launchForce, 0f), ForceMode.Impulse);
+        }
+
+        
+    
     }
 } 
