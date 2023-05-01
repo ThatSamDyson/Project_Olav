@@ -8,8 +8,12 @@ public class Rotator : MonoBehaviour
     
     void Update()
     {
-        
-        transform.Rotate(_rotation);
+        if(PauseMenu.GameIsPaused == false)
+        {
+            transform.Rotate(_rotation);
+        }
+
+        //transform.Rotate(_rotation);
     }
 }
 

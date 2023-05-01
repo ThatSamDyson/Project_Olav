@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class changeTexture : MonoBehaviour
 {
+    public AudioSource collectSound;
     [SerializeField]
     Color CanColour;
 
@@ -20,6 +21,7 @@ public class changeTexture : MonoBehaviour
         if (other.gameObject.CompareTag("Player"))
         {
 
+            collectSound.Play();
             other.gameObject.GetComponent<SetTexture>().ChangeColour(CanColour);
             Destroy(gameObject);
 

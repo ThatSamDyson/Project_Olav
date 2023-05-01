@@ -16,6 +16,7 @@ public class S_playerController : MonoBehaviour
     [SerializeField] private float maxSpeed = 5f;
     [SerializeField] private float launchForce = 1f;
     private Vector3 forceDirection = Vector3.zero;
+    public AudioSource jumpSound;
 
     [SerializeField] private Camera playerCamera;
 
@@ -24,8 +25,21 @@ public class S_playerController : MonoBehaviour
     private void Awake()
     {
         collider = GetComponent<Collider>();
-        rb = this.GetComponent<Rigidbody>();
+        rb = this.GetComponent<Rigidbody>(); 
         playerControl = new PlayerControls();
+        Cursor.lockState = CursorLockMode.Locked;
+    }
+
+    private void Update()
+    {
+        if (PauseMenu.GameIsPaused == true)
+        {
+            Cursor.lockState = CursorLockMode.None;
+        }
+        else
+        {
+            Cursor.lockState = CursorLockMode.Locked;
+        }
     }
 
     private void OnEnable()
@@ -92,6 +106,7 @@ public class S_playerController : MonoBehaviour
         {
             Debug.Log("Grounded");
             forceDirection += Vector3.up * jumpForce;
+            jumpSound.Play();
         }
     }
 
