@@ -24,10 +24,12 @@ public class S_playerController : MonoBehaviour
 
     private void Awake()
     {
+        Time.timeScale = 1f;
         collider = GetComponent<Collider>();
         rb = this.GetComponent<Rigidbody>(); 
         playerControl = new PlayerControls();
         Cursor.lockState = CursorLockMode.Locked;
+        
     }
 
     private void Update()

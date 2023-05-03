@@ -10,6 +10,13 @@ public class MainMenu : MonoBehaviour
     public GameObject Options;
 
 
+
+    private void Awake()
+    {
+        Cursor.lockState = CursorLockMode.Confined;
+
+    }
+
     // Start is called before the first frame update
     void Start()
     {

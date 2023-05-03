@@ -9,6 +9,8 @@ namespace BrokenVector.LowPolyFencePack
 
         private DoorController doorController;
 
+        private bool isOpen = false;
+
         void Awake()
         {
             doorController = GetComponent<DoorController>();
@@ -20,7 +22,14 @@ namespace BrokenVector.LowPolyFencePack
 
             if (other.gameObject.tag == "Player")
             {
-                doorController.ToggleDoor();
+                if (isOpen == false)
+                {
+                    doorController.ToggleDoor();
+
+                    isOpen = true;
+                }
+
+                //doorController.ToggleDoor();
 
             }
         }
@@ -29,7 +38,13 @@ namespace BrokenVector.LowPolyFencePack
         {
             if (other.gameObject.tag == "Player")
             {
-                doorController.ToggleDoor();
+                if (isOpen == true)
+                {
+                    doorController.ToggleDoor();
+
+                    isOpen=false;
+                }
+               // doorController.ToggleDoor();
 
             }
         }

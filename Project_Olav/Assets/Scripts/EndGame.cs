@@ -5,9 +5,28 @@ using UnityEngine.SceneManagement;
 
 public class EndGame : MonoBehaviour
 {
+    private ScoringSystem scoring;
+    public GameObject Score;
+    public GameObject MoreFishUI;
+
+    private void Awake()
+    {
+        scoring = Score.GetComponent<ScoringSystem>();
+    }
+
     private void OnTriggerEnter(Collider other)
     {
-        SceneManager.LoadScene("Menu", LoadSceneMode.Single);
-        Debug.Log("GameEnd");
+
+        if(scoring.score < 20)
+        {
+            MoreFishUI.SetActive(true);
+        }
+        else
+        {
+            SceneManager.LoadScene("Menu", LoadSceneMode.Single);
+            Debug.Log("GameEnd");
+        }
+        //SceneManager.LoadScene("Menu", LoadSceneMode.Single);
+        //Debug.Log("GameEnd");
     }
 }

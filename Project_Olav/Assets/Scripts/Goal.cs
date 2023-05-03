@@ -19,6 +19,7 @@ public class Goal : MonoBehaviour
         if (other.gameObject.CompareTag("Football"))
         {
             scoring.score += pointValue;
+            Destroy (gameObject);
         }
     }
 }
